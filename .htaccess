@@ -1,0 +1,43 @@
+DirectoryIndex index.html
+Options -Indexes
+AddCharset UTF-8 .html
+AddCharset UTF-8 .php
+
+<IfModule mod_headers.c>
+Header unset ETag
+<Files *.html>
+Header add Pragma "no-cache"
+Header add Cache-Control "no-cache"
+Header unset Vary
+</Files>
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/x-icon "access plus 2592000 seconds"
+ExpiresByType text/css "access plus 604800 seconds"
+ExpiresByType text/javascript "access plus 216000 seconds"
+ExpiresByType application/x-javascript "access plus 216000 seconds"
+ExpiresByType image/gif "access plus 2592000 seconds"
+ExpiresByType image/jpeg "access plus 2592000 seconds"
+ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType audio/webm "access plus 2592000 seconds"
+ExpiresByType video/webm "access plus 2592000 seconds"
+ExpiresByType audio/mp4 "access plus 2592000 seconds"
+ExpiresByType video/mp4 "access plus 2592000 seconds"
+ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>
+
+<IfModule mod_alias.c>
+RedirectMatch 404 (.*)\.accounts$
+RedirectMatch 404 (.*)\.bans$
+RedirectMatch 404 (.*)\.keywords$
+RedirectMatch 404 (.*)\.logs$
+RedirectMatch 404 (.*)\.posts$
+RedirectMatch 404 (.*)\.reports$
+RedirectMatch 404 (.*)\.tinyib.db$
+</IfModule>

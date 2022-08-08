@@ -1,0 +1,982 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: trevor@rocketnine.space\n"
+"POT-Creation-Date: 2021-08-05 11:29-0700\n"
+"PO-Revision-Date: 2021-04-13 21:27+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/tinyib/"
+"tinyib/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6-dev\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: imgboard.php\n"
+"X-Poedit-SearchPath-1: inc/html.php\n"
+"X-Poedit-SearchPath-2: inc/functions.php\n"
+
+msgid "Click here to go back"
+msgstr "Klikk her for å gå tilbake"
+
+#, fuzzy
+#| msgid ""
+#| "TINYIB_RECAPTCHA_SITE and TINYIB_RECAPTCHA_SECRET  must be configured."
+msgid "TINYIB_HCAPTCHA_SITE and TINYIB_HCAPTCHA_SECRET  must be configured."
+msgstr "TINYIB_RECAPTCHA_SITE og TINYIB_RECAPTCHA_SECRET må settes opp."
+
+msgid "TINYIB_RECAPTCHA_SITE and TINYIB_RECAPTCHA_SECRET  must be configured."
+msgstr "TINYIB_RECAPTCHA_SITE og TINYIB_RECAPTCHA_SECRET må settes opp."
+
+msgid "TINYIB_TRIPSEED must be configured."
+msgstr ""
+
+msgid "Unknown database mode specified."
+msgstr "Ukjent databasemodus angitt."
+
+#, fuzzy, php-format
+msgid "Directory '%s' can not be written to.  Please modify its permissions."
+msgstr "Kan ikke skrive til mappen «%s». Endre filtilgangene."
+
+msgid "Posting is currently disabled.<br>Please try again in a few moments."
+msgstr "Posting for tiden avskrudd. <br>Prøv igjen om en liten stund."
+
+#, fuzzy
+msgid "Invalid parent thread ID supplied, unable to create post."
+msgstr "Ugyldig ovennevnt tråd-ID angitt. Kan ikke opprette post."
+
+msgid "Replies are not allowed to locked threads."
+msgstr "Svar tillates ikke i låste tråder."
+
+msgid "Your post contains a blocked keyword."
+msgstr "Din post inneholder et blokkert nøkkelord."
+
+msgid "Keyword"
+msgstr "Nøkkelord"
+
+#, php-format
+msgid "Your IP address (%1$s) is banned until %2$s."
+msgstr ""
+
+#, php-format
+msgid "Your IP address (%s) is permanently banned."
+msgstr ""
+
+msgid "Reason"
+msgstr "Grunn"
+
+#, fuzzy
+msgid "Embedding a URL and uploading a file at the same time is not supported."
+msgstr "Innebygging av nettadresse og opplasting av fil samtidig støttes ikke."
+
+#, php-format
+msgid "Invalid embed URL. Only %s URLs are supported."
+msgstr "Ugyldig innbyggings-nettadresse. Kun %s-nettadresser støttes."
+
+#, php-format
+msgid "That file is larger than %s."
+msgstr "Filen er større enn %s."
+
+msgid "Failed to download file at specified URL."
+msgstr "Klarte ikke å laste ned filen angitt i nettadressen."
+
+#, fuzzy
+msgid "Error while processing audio/video."
+msgstr "Kunne ikke behandle lyd/video."
+
+msgid "Could not create thumbnail."
+msgstr "Kunne ikke opprette miniatyrbilde."
+
+msgid "upload a file or embed a URL"
+msgstr "last opp en fil, eller bygg inn en nettadresse"
+
+msgid "upload a file"
+msgstr "last opp en fil"
+
+msgid "embed a URL"
+msgstr "innebygg en nettadresse"
+
+#, fuzzy, php-format
+msgid "Please %s to start a new thread."
+msgstr "%s for å starte ny tråd"
+
+#, php-format
+msgid "Please enter a message and/or %s."
+msgstr "Skriv inn en melding nedenfor/eller %s."
+
+#, fuzzy
+#| msgid "Please enter the CAPTCHA text."
+msgid "Please enter a message."
+msgstr "Skriv inn CAPTCHA-teksten."
+
+#, php-format
+msgid "Please %s."
+msgstr "%s."
+
+#, php-format
+msgid "Your %s will be shown <b>once it has been approved</b>."
+msgstr "Din %s vil bli vist <b>når den har blit godkjent</b>."
+
+#, fuzzy
+msgid "Updating thread..."
+msgstr "Oppdaterer tråd…"
+
+msgid "Updating index..."
+msgstr "Oppdaterer indeks…"
+
+msgid "Created staff post"
+msgstr ""
+
+msgid "This post has been deleted"
+msgstr ""
+
+msgid "This post requires moderation before it can be displayed"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reporting is disabled."
+msgid "Automatic refreshing is disabled."
+msgstr "Rapportering er avskrudd."
+
+msgid "Reporting is disabled."
+msgstr "Rapportering er avskrudd."
+
+#, fuzzy
+msgid ""
+"Sorry, an invalid post identifier was sent. Please go back, refresh the "
+"page, and try again."
+msgstr ""
+"Ugyldig postidentifikator ble sendt. Gå tilbake, gjenoppfrisk siden, og prøv "
+"igjen."
+
+msgid "Moderators have determined that post does not break any rules."
+msgstr ""
+
+msgid "You have already submitted a report for that post."
+msgstr "Du har allerede sendt inn en rapport om denne posten."
+
+msgid "(enter the text below)"
+msgstr "(skriv inn teksten nedenfor)"
+
+msgid "Please complete a CAPTCHA to submit your report"
+msgstr ""
+
+msgid "Submit"
+msgstr "Send inn"
+
+#, fuzzy
+#| msgid "Post deleted."
+msgid "Post reported."
+msgstr "Post slettet."
+
+#, fuzzy
+msgid "Tick the box next to a post and click \"Delete\" to delete it."
+msgstr ""
+"Huk av i boksen ved siden av en post og klikk «Slett» for å slette den."
+
+#, fuzzy
+msgid ""
+"Post deletion is currently disabled.<br>Please try again in a few moments."
+msgstr "Sletting av poster er for tiden avskrudd.<br>Prøv igjen om en stund."
+
+msgid "Post deleted."
+msgstr "Post slettet."
+
+msgid "Invalid password."
+msgstr "Ugyldig passord."
+
+#, fuzzy
+msgid "Rebuilt board."
+msgstr "Oppslagstavle gjenoppbygd."
+
+msgid "Access denied"
+msgstr ""
+
+msgid "Account not found."
+msgstr ""
+
+msgid "This account may not be updated while TINYIB_ADMINPASS is set."
+msgstr ""
+
+msgid "This account may not be updated while TINYIB_MODPASS is set."
+msgstr ""
+
+msgid "A password is required."
+msgstr ""
+
+msgid "Invalid role."
+msgstr ""
+
+#, php-format
+msgid "Added account %s"
+msgstr ""
+
+msgid "Added account"
+msgstr ""
+
+#, php-format
+msgid "Renamed account %1$s as %2$s"
+msgstr ""
+
+#, php-format
+msgid "Changed password of account %s"
+msgstr ""
+
+msgid "Super-administrator"
+msgstr ""
+
+msgid "Administrator"
+msgstr ""
+
+msgid "Moderator"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+#, php-format
+msgid "Changed role of account %s to %s"
+msgstr ""
+
+msgid "Updated account"
+msgstr ""
+
+msgid "permanently"
+msgstr ""
+
+#, php-format
+msgid "until %s"
+msgstr ""
+
+#, php-format
+msgid "Banned %s %s"
+msgstr ""
+
+#, php-format
+msgid "Banned %s %s: %s"
+msgstr ""
+
+#, php-format
+msgid "Added ban message to %s"
+msgstr ""
+
+msgid "Banned 1 IP address"
+msgstr ""
+
+#, php-format
+msgid "Banned %d IP addresses"
+msgstr ""
+
+#, php-format
+msgid "Lifted ban on %s"
+msgstr ""
+
+msgid "Sorry, that keyword has already been added."
+msgstr "Nøkkelord allerede lagt til."
+
+#, php-format
+msgid "Updated keyword %s"
+msgstr ""
+
+msgid "Keyword updated."
+msgstr "Nøkkelord oppdatert."
+
+msgid "Keyword added."
+msgstr "Nøkkelord lagt til."
+
+msgid "That keyword does not exist."
+msgstr ""
+
+#, php-format
+msgid "Deleted keyword %s"
+msgstr ""
+
+msgid "Keyword deleted."
+msgstr "Nøkkelord slettet."
+
+#, php-format
+msgid "Deleted %s"
+msgstr ""
+
+msgid "Deleted 1 post"
+msgstr ""
+
+#, php-format
+msgid "Deleted %d posts"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+#, php-format
+msgid "Post No.%d approved."
+msgstr "Post nummer %d godkjent."
+
+msgid "Sorry, there doesn't appear to be a post with that ID."
+msgstr "Ingen post har denne ID-en."
+
+#, fuzzy
+#| msgid "Sticky"
+msgid "Stickied"
+msgstr "Fest"
+
+msgid "Unstickied"
+msgstr ""
+
+msgid "Form data was lost. Please go back and try again."
+msgstr "Skjemadata gikk tapt. Gå tilbake og prøv igjen."
+
+#, fuzzy
+#| msgid "Lock"
+msgid "Locked"
+msgstr "Lås"
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Password updated"
+msgstr ""
+
+msgid "Please enter the CAPTCHA text."
+msgstr "Skriv inn CAPTCHA-teksten."
+
+#, fuzzy
+msgid ""
+"Incorrect CAPTCHA text entered.  Please try again.<br>Click the image to "
+"retrieve a new CAPTCHA."
+msgstr ""
+"Ugyldig CAPTCHA-tekst innskrevet. Prøv igjen.<br>Klikk på bildet for å hente "
+"ny CAPTCHA."
+
+#, fuzzy, php-format
+msgid ""
+"Please shorten your message, or post it in multiple parts. Your message is "
+"%1$d characters long, and the maximum allowed is %2$d."
+msgstr ""
+"Kort ned meldingen din, eller post den i flere deler. Din melding er %1$d "
+"tegn for lang, og høyeste tillatt er %2$d."
+
+#, fuzzy
+#| msgid "Invalid password."
+msgid "Invalid key."
+msgstr "Ugyldig passord."
+
+msgid "Invalid username or password."
+msgstr ""
+
+#, fuzzy, php-format
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive (%s) in php.ini."
+msgstr "Opplastet fil overskrider upload_max_filesize-verdien (%s) i php.ini."
+
+#, fuzzy
+msgid "The uploaded file was only partially uploaded."
+msgstr "Opplastet fil ble kun delvis opplastet."
+
+msgid "No file was uploaded."
+msgstr "Ingen fil ble opplastet."
+
+msgid "Missing a temporary folder."
+msgstr "Mangler midlertidig mappe."
+
+msgid "Failed to write file to disk"
+msgstr "Klarte ikke å skrive fil til disk"
+
+msgid "Unable to save the uploaded file."
+msgstr "Kunne ikke lagre opplastet fil."
+
+#, php-format
+msgid ""
+"Duplicate file uploaded. That file has already been posted <a href=\"%s"
+"\">here</a>."
+msgstr ""
+"Opplastet fil finnes allerede. Filen har allerede blitt postet <a href=\"%s"
+"\">her</a>."
+
+#, fuzzy
+msgid ""
+"Unable to read the uploaded file while creating its thumbnail. A common "
+"cause for this is an incorrect extension when the file is actually of a "
+"different type."
+msgstr ""
+"Kunne ikke lese opplastet fil under opprettelse av miniatyrbilde. Dette "
+"skjer vanligvis fordi dette er feil filendelse for en slik fil."
+
+msgid "File transfer failure. Please retry the submission."
+msgstr "Klarte ikke å overføre fil. Forsøk å utføre innsendelsen igjen."
+
+msgid ""
+"Failed to read the MIME type and size of the uploaded file. Please retry the "
+"submission."
+msgstr ""
+"Kunne ikke lese mediatypen, eller størrelse på opplastet fil. Forsøk å "
+"utføre innsendelsen igjen."
+
+msgid "Could not copy uploaded file."
+msgstr "Kunne ikke kopiere opplastet fil."
+
+msgid "File transfer failure. Please go back and try again."
+msgstr "Kunne ikke overføre fil. Gå tilbake og prøv igjen."
+
+msgid "Sorry, your video appears to be corrupt."
+msgstr "Beklager, videoen din ser ut til å være skadet."
+
+#, fuzzy, php-format
+msgid "Supported file type is %s"
+msgstr "Støttet filtype er %s"
+
+#, php-format
+msgid "Supported file types are %1$s and %2$s."
+msgstr "Støttede filtyper er %1$s og %2$s."
+
+msgid "Raw HTML"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Text entered in the Message field will be posted as is with no formatting "
+"applied."
+msgstr ""
+"Tekst innskrevet i meldingsfeltet vil postes uten noen tillagt formatering."
+
+msgid "Line-breaks must be specified with \"&lt;br&gt;\"."
+msgstr "Linjeskift må angis med «&lt;br&gt;\"."
+
+msgid "Reply to"
+msgstr "Besvar"
+
+#, fuzzy
+msgid "0 to start a new thread"
+msgstr "0 for å starte ny tråd"
+
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#, php-format
+msgid "Maximum file size allowed is %s."
+msgstr "Maksimal tillatt filstørrelse er %s."
+
+msgid "File"
+msgstr "Fil"
+
+msgid "Embed"
+msgstr "Innebygg"
+
+msgid "(paste a YouTube URL)"
+msgstr "(lim inn YouTube-nettadresse)"
+
+msgid "All posts are moderated before being shown."
+msgstr "Alle poster modereres før de blir vist."
+
+msgid "All posts with a file attached are moderated before being shown."
+msgstr "Alle poster med filvedlegg modereres før de blir vist."
+
+#, php-format
+msgid "Images greater than %s will be thumbnailed."
+msgstr "Bilder større enn %s vil bli miniatyravbildet."
+
+#, fuzzy, php-format
+msgid "Currently %s unique user posts."
+msgstr "%s unike brukerposter akkurat nå."
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "E-mail"
+msgstr "E-post"
+
+msgid "Subject"
+msgstr "Emne"
+
+msgid "Message"
+msgstr "Melding"
+
+msgid "Password"
+msgstr "Passord"
+
+msgid "(for post and file deletion)"
+msgstr "(for post- og filsletting)"
+
+#, fuzzy
+msgid "Report"
+msgstr "Rapporter"
+
+msgid "Reply"
+msgstr "Svar"
+
+#, fuzzy
+#| msgid "Post truncated.  Click Reply to view."
+msgid "Post truncated. Click Reply to view."
+msgstr "Post forkortet. Trykk «Svar» for å vise."
+
+#, fuzzy
+msgid "1 post omitted. Click Reply to view."
+msgstr "Én post er ikke tatt med. Tykk «Svar» for å vise den."
+
+#, fuzzy, php-format
+msgid "%d posts omitted. Click Reply to view."
+msgstr "%d poster er ikke tatt med. Klikk «Svar» for å vise dem."
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Manage"
+msgstr "Håndter"
+
+msgid "Previous"
+msgstr "Forrige"
+
+msgid "Next"
+msgstr "Neste"
+
+msgid "Return"
+msgstr "Tilbake"
+
+msgid "Posting mode: Reply"
+msgstr "Postingsmodus: Svar"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "Delete Post"
+msgstr "Slett post"
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Bans"
+msgstr "Bannlysninger"
+
+msgid "Keywords"
+msgstr "Nøkkelord"
+
+msgid "Migrate Database"
+msgstr "Flytt database"
+
+msgid "Moderate Post"
+msgstr "Moderer post"
+
+msgid "Moderation Log"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rebuild All<"
+msgid "Rebuild All"
+msgstr "Gjenoppbygg alle"
+
+#, fuzzy
+msgid "Reports"
+msgstr "Rapporter"
+
+msgid "Staff Post"
+msgstr ""
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Update"
+msgstr "Oppdater"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Log Out"
+msgstr "Logg ut"
+
+msgid "Manage mode"
+msgstr "Håndteringsmodus"
+
+msgid "Log In"
+msgstr "Logg inn"
+
+msgid "Enter a username and password"
+msgstr ""
+
+msgid "No logs."
+msgstr ""
+
+msgid "Moderation log"
+msgstr ""
+
+msgid "Reported posts"
+msgstr "Rapporterte poster"
+
+#, php-format
+msgid "%1$d report by %2$s"
+msgstr ""
+
+#, php-format
+msgid "%1$d reports by %2$s"
+msgstr ""
+
+#, php-format
+msgid "%d reports"
+msgstr "%d rapporter"
+
+#, php-format
+msgid "Reported by %s"
+msgstr "Rapportert av %s"
+
+msgid "Moderate"
+msgstr "Moderer"
+
+msgid "There are currently no reported posts."
+msgstr ""
+
+msgid "Add an account"
+msgstr ""
+
+msgid "Update an account"
+msgstr ""
+
+msgid "Leave blank to maintain current password"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Choose a role"
+msgstr ""
+
+msgid "Last active"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "update"
+msgstr ""
+
+msgid "Add a ban"
+msgstr "Legg til en bannlysning"
+
+msgid ""
+"Multiple IP addresses may be banned at once by separating each address with "
+"a comma."
+msgstr ""
+
+#, fuzzy
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#, fuzzy
+msgid "Expire(sec)"
+msgstr "Utløp (sek.):"
+
+msgid "never"
+msgstr "aldri"
+
+msgid "Optional."
+msgstr ""
+
+msgid "1 hour"
+msgstr "Én time"
+
+msgid "1 day"
+msgstr "Én dag"
+
+msgid "2 days"
+msgstr "To dager"
+
+msgid "1 week"
+msgstr "Én uke"
+
+msgid "2 weeks"
+msgstr "To uker"
+
+msgid "1 month"
+msgstr "Én måned"
+
+msgid "Append a message to the post. Optional."
+msgstr ""
+
+#, fuzzy
+msgid "Set At"
+msgstr "Satt"
+
+msgid "Expires"
+msgstr "Utløper"
+
+msgid "Does not expire"
+msgstr "Utløper ikke"
+
+#, fuzzy
+msgid "lift"
+msgstr "løft"
+
+#, fuzzy
+#| msgid "Moderate Post"
+msgid "Moderate a post"
+msgstr "Moderer post"
+
+msgid "Post ID"
+msgstr "Post-ID"
+
+msgid "Tip"
+msgstr ""
+
+msgid ""
+"While browsing the image board, you can easily moderate a post if you are "
+"logged in."
+msgstr ""
+"Når du surfer en bildeoppslagstavle, kan du enkelt moderere en post hvis du "
+"er innlogget."
+
+#, fuzzy
+msgid ""
+"Tick the box next to a post and click \"Delete\" at the bottom of the page "
+"with a blank password."
+msgstr ""
+"Huk av i boksen ved siden av en post og klikk «Slett» for å slette den."
+
+#, php-format
+msgid "Moderate %d posts"
+msgstr ""
+
+msgid "Delete all"
+msgstr ""
+
+msgid "Ban all"
+msgstr ""
+
+msgid "1 thread and 1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "1 thread and %d replies will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%d threads and 1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%1$d threads and %2$d replies will be deleted."
+msgstr ""
+
+msgid "1 IP address will be banned."
+msgstr ""
+
+#, php-format
+msgid "%d IP addresses will be banned."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Ban record added for %s"
+msgid " A ban record already exists for %s"
+msgstr "Bannlysning av %s utført"
+
+msgid "Only an administrator may ban an IP address."
+msgstr "Kun en administrator kan bannlyse en IP-adresse."
+
+#, php-format
+msgid "IP address: %s"
+msgstr "IP-adresse: %s"
+
+msgid "Thread"
+msgstr "Tråd"
+
+msgid "1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%d replies will be deleted."
+msgstr ""
+
+msgid "Belongs to "
+msgstr ""
+
+msgid "Un-sticky"
+msgstr "Opphev festing"
+
+msgid "Sticky"
+msgstr "Fest"
+
+msgid "Return this thread to a normal state."
+msgstr "Gjør denne tråden normal igjen."
+
+msgid "Keep this thread at the top of the board."
+msgstr "Behold denne tråden på toppen av oppslagstavlen."
+
+msgid "Unlock"
+msgstr "Lås opp"
+
+msgid "Lock"
+msgstr "Lås"
+
+msgid "Allow replying to this thread."
+msgstr "Tillat svar i denne tråden."
+
+msgid "Disallow replying to this thread."
+msgstr "Ikke tillat svar i denne tråden."
+
+#, php-format
+msgid "Moderating No.%d"
+msgstr "Moderer post nummer %d"
+
+msgid "Action"
+msgstr "Handling"
+
+msgid "Delete thread"
+msgstr "Slett tråd"
+
+msgid "Delete reply"
+msgstr ""
+
+msgid "Ban poster"
+msgstr "Bannlyst poster"
+
+msgid "Approve"
+msgstr "Tillat"
+
+msgid "report"
+msgstr "rapport"
+
+msgid "reports"
+msgstr "rapporter"
+
+#, fuzzy
+#| msgid "Sorry, there doesn't appear to be a post with that ID."
+msgid "Sorry, there doesn't appear to be a keyword with that ID."
+msgstr "Ingen nøkkelord har denne ID-en."
+
+msgid "Add"
+msgstr "Legg til"
+
+msgid "Hide until approved"
+msgstr ""
+
+msgid "Delete and ban for 1 hour"
+msgstr "Slett og bannlys i én time"
+
+msgid "Delete and ban for 1 day"
+msgstr "Slett og bannlys én dag"
+
+msgid "Delete and ban for 2 days"
+msgstr "Slett og bannlys to dager"
+
+msgid "Delete and ban for 1 week"
+msgstr "Slett og bannlys én uke"
+
+msgid "Delete and ban for 2 weeks"
+msgstr "Slett og bannlys to uker"
+
+msgid "Delete and ban for 1 month"
+msgstr "Slett og bannlys én måned"
+
+msgid "Delete and ban permanently"
+msgstr "Slett og bannlys permanent"
+
+msgid "Edit"
+msgstr "Rediger"
+
+msgid "thread"
+msgstr "tråd"
+
+msgid "threads"
+msgstr "tråder"
+
+msgid "ban"
+msgstr "bannlysning"
+
+msgid "bans"
+msgstr "bannlysninger"
+
+msgid "More Info"
+msgstr "Mer info"
+
+msgid "Pending posts"
+msgstr "Ventende poster"
+
+msgid "Recent posts"
+msgstr "Nylige poster"
+
+msgid "Info"
+msgstr "Info"
+
+#~ msgid "Sorry, there is already a ban on record for that IP address."
+#~ msgstr "Denne IP-adressen er allerede bannlyst."
+
+#~ msgid "Embed:"
+#~ msgstr "Innebygg:"
+
+#~ msgid "File:"
+#~ msgstr "Fil:"
+
+#~ msgid "Raw Post"
+#~ msgstr "Rå post"
+
+#, fuzzy
+#~ msgid "optional"
+#~ msgstr "valgfritt"
+
+#~ msgid "Tip:"
+#~ msgstr "Tips:"
+
+#, fuzzy
+#~| msgid "Action"
+#~ msgid "Action:"
+#~ msgstr "Handling"
+
+#~ msgid "TINYIB_TRIPSEED and TINYIB_ADMINPASS must be configured."
+#~ msgstr "TINYIB_TRIPSEED og TINYIB_ADMINPASS må settes opp."
+
+#~ msgid "%s uploaded."
+#~ msgstr "%s opplastet."
+
+#~ msgid "Ban record added for %s"
+#~ msgstr "Bannlysning av %s utført"
+
+#~ msgid "Ban record lifted for %s"
+#~ msgstr "Bannlysning av %s opphevet"
+
+#~ msgid "Post No.%d deleted."
+#~ msgstr "Post nummer %d slettet."
+
+#~ msgid "Reports cleared."
+#~ msgstr "Rapporter tømt."
+
+#~ msgid "This will delete the entire thread below."
+#~ msgstr "Dette vil slette hele tråden nedenfor."
+
+#~ msgid "This will delete the post below."
+#~ msgstr "Dette vil slette posten nedenfor."
+
+#~ msgid "Post"
+#~ msgstr "Post"
+
+#~ msgid "Delete post"
+#~ msgstr "Slett post"
+
+#~ msgid "Clear reports"
+#~ msgstr "Tøm poster"
+
+#~ msgid "Enter an administrator or moderator password"
+#~ msgstr "Skriv inn administrator- eller moderatorpassord"
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonym"
+
+#, fuzzy
+#~ msgid "A %s is required to start a thread."
+#~ msgstr "%s kreves for å starte en tråd."
+
+#~ msgid "Ban an IP address"
+#~ msgstr "Bannlys en IP-adresse"
+
+#~ msgid "Reason:"
+#~ msgstr "Grunn:"

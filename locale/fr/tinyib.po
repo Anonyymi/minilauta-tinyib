@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: trevor@rocketnine.space\n"
+"POT-Creation-Date: 2021-08-05 11:29-0700\n"
+"PO-Revision-Date: 2021-04-07 14:27+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/tinyib/tinyib/fr/"
+">\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.6-dev\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: imgboard.php\n"
+"X-Poedit-SearchPath-1: inc/html.php\n"
+"X-Poedit-SearchPath-2: inc/functions.php\n"
+
+msgid "Click here to go back"
+msgstr "Retour en cliquant ici"
+
+msgid "TINYIB_HCAPTCHA_SITE and TINYIB_HCAPTCHA_SECRET  must be configured."
+msgstr ""
+"TINYIB_HCAPTCHA_SITE et TINYIB_HCAPTCHA_SECRET doivent être configurés."
+
+msgid "TINYIB_RECAPTCHA_SITE and TINYIB_RECAPTCHA_SECRET  must be configured."
+msgstr ""
+"TINYIB_RECAPTCHA_SITE et TINYIB_RECAPTCHA_SECRET doivent être configurés."
+
+msgid "TINYIB_TRIPSEED must be configured."
+msgstr ""
+
+msgid "Unknown database mode specified."
+msgstr "Type de base de données spécifié inconnu."
+
+#, php-format
+msgid "Directory '%s' can not be written to.  Please modify its permissions."
+msgstr ""
+"Impossible d'écrire dans le dossier « %s ». Veuillez modifier ses "
+"autorisations."
+
+msgid "Posting is currently disabled.<br>Please try again in a few moments."
+msgstr ""
+"La publication est actuellement désactivée.<br>Veuillez réessayer dans "
+"quelques instants."
+
+msgid "Invalid parent thread ID supplied, unable to create post."
+msgstr ""
+"Identifiant de fil parent fourni invalide, impossible de créer la "
+"publication."
+
+msgid "Replies are not allowed to locked threads."
+msgstr "Les réponses ne sont pas autorisées sur les fils verrouillés."
+
+msgid "Your post contains a blocked keyword."
+msgstr "Votre publication contient un mot bloqué."
+
+msgid "Keyword"
+msgstr "Mot-clé"
+
+#, php-format
+msgid "Your IP address (%1$s) is banned until %2$s."
+msgstr ""
+
+#, php-format
+msgid "Your IP address (%s) is permanently banned."
+msgstr ""
+
+msgid "Reason"
+msgstr "Motif"
+
+msgid "Embedding a URL and uploading a file at the same time is not supported."
+msgstr ""
+"Intégrer une URL et mettre en ligne un fichier au même moment n'est pas pris "
+"en charge."
+
+#, php-format
+msgid "Invalid embed URL. Only %s URLs are supported."
+msgstr "URL intégrée invalide. Seules les URL %s sont prises en charge."
+
+#, php-format
+msgid "That file is larger than %s."
+msgstr "Ce fichier est plus lourd que %s."
+
+msgid "Failed to download file at specified URL."
+msgstr "Le téléchargement depuis cet URL a échoué."
+
+msgid "Error while processing audio/video."
+msgstr "Erreur lors du traitement audio/vidéo."
+
+msgid "Could not create thumbnail."
+msgstr "Impossible de créer la miniature."
+
+msgid "upload a file or embed a URL"
+msgstr "téléverser un fichier ou encapsuler un URL"
+
+msgid "upload a file"
+msgstr "téléverser un fichier"
+
+msgid "embed a URL"
+msgstr "encapsuler un URL"
+
+#, php-format
+msgid "Please %s to start a new thread."
+msgstr "%s pour démarrer un nouveau fil."
+
+#, php-format
+msgid "Please enter a message and/or %s."
+msgstr "Veuillez saisir un message et/ou %s."
+
+msgid "Please enter a message."
+msgstr "Veuillez saisir un message."
+
+#, php-format
+msgid "Please %s."
+msgstr "Veuillez %s."
+
+#, php-format
+msgid "Your %s will be shown <b>once it has been approved</b>."
+msgstr "Votre %s sera affichée <b>une fois qu’elle aura été approuvée</b>."
+
+msgid "Updating thread..."
+msgstr "Mise à jour du fil de discussion…"
+
+msgid "Updating index..."
+msgstr "Mise à jour de l’index…"
+
+msgid "Created staff post"
+msgstr ""
+
+msgid "This post has been deleted"
+msgstr ""
+
+msgid "This post requires moderation before it can be displayed"
+msgstr ""
+
+msgid "Automatic refreshing is disabled."
+msgstr "Le rafraîchissement automatique est désactivé."
+
+msgid "Reporting is disabled."
+msgstr "Le signalement est désactivé."
+
+msgid ""
+"Sorry, an invalid post identifier was sent. Please go back, refresh the "
+"page, and try again."
+msgstr ""
+"Désolé, un identificateur de publication invalide a été envoyé. Veuillez "
+"retourner en arrière, actualiser la page et réessayer."
+
+msgid "Moderators have determined that post does not break any rules."
+msgstr ""
+
+msgid "You have already submitted a report for that post."
+msgstr "Vous avez déjà signalé cette publication."
+
+msgid "(enter the text below)"
+msgstr "(saisissez le texte ci-dessous)"
+
+msgid "Please complete a CAPTCHA to submit your report"
+msgstr ""
+
+msgid "Submit"
+msgstr "Envoyer"
+
+msgid "Post reported."
+msgstr "Publication signalée."
+
+msgid "Tick the box next to a post and click \"Delete\" to delete it."
+msgstr ""
+"Cochez la case à côté d’une publication et cliquez sur « Supprimer » pour la "
+"supprimer."
+
+msgid ""
+"Post deletion is currently disabled.<br>Please try again in a few moments."
+msgstr ""
+"La suppression de publications est actuellement désactivée. <br>Veuillez "
+"réessayer dans quelques instants."
+
+msgid "Post deleted."
+msgstr "Publication supprimée."
+
+msgid "Invalid password."
+msgstr "Mot de passe invalide."
+
+msgid "Rebuilt board."
+msgstr "Tableau reconstruit."
+
+msgid "Access denied"
+msgstr "Accès refusé"
+
+msgid "Account not found."
+msgstr "Compte introuvable."
+
+msgid "This account may not be updated while TINYIB_ADMINPASS is set."
+msgstr ""
+"Ce compte ne peut pas être mis à jour tant que TINYIB_ADMINPASS est défini."
+
+msgid "This account may not be updated while TINYIB_MODPASS is set."
+msgstr ""
+"Ce compte ne peut pas être mis à jour tant que TINYIB_MODPASS est défini."
+
+msgid "A password is required."
+msgstr "Un mot de passe est requis."
+
+msgid "Invalid role."
+msgstr "Rôle invalide."
+
+#, php-format
+msgid "Added account %s"
+msgstr ""
+
+msgid "Added account"
+msgstr "Compte ajouté"
+
+#, php-format
+msgid "Renamed account %1$s as %2$s"
+msgstr ""
+
+#, php-format
+msgid "Changed password of account %s"
+msgstr ""
+
+msgid "Super-administrator"
+msgstr "Super administrateur"
+
+msgid "Administrator"
+msgstr "Administrateur"
+
+msgid "Moderator"
+msgstr "Modérateur"
+
+msgid "Disabled"
+msgstr "Désactivé"
+
+#, php-format
+msgid "Changed role of account %s to %s"
+msgstr ""
+
+msgid "Updated account"
+msgstr "Compte mis à jour"
+
+msgid "permanently"
+msgstr ""
+
+#, php-format
+msgid "until %s"
+msgstr ""
+
+#, php-format
+msgid "Banned %s %s"
+msgstr ""
+
+#, php-format
+msgid "Banned %s %s: %s"
+msgstr ""
+
+#, php-format
+msgid "Added ban message to %s"
+msgstr ""
+
+msgid "Banned 1 IP address"
+msgstr ""
+
+#, php-format
+msgid "Banned %d IP addresses"
+msgstr ""
+
+#, php-format
+msgid "Lifted ban on %s"
+msgstr ""
+
+msgid "Sorry, that keyword has already been added."
+msgstr "Désolé, ce mot-clé a déjà été ajouté."
+
+#, php-format
+msgid "Updated keyword %s"
+msgstr ""
+
+msgid "Keyword updated."
+msgstr "Mot-clé mis à jour."
+
+msgid "Keyword added."
+msgstr "Mot-clé ajouté."
+
+msgid "That keyword does not exist."
+msgstr ""
+
+#, php-format
+msgid "Deleted keyword %s"
+msgstr ""
+
+msgid "Keyword deleted."
+msgstr "Mot-clé supprimé."
+
+#, php-format
+msgid "Deleted %s"
+msgstr ""
+
+msgid "Deleted 1 post"
+msgstr ""
+
+#, php-format
+msgid "Deleted %d posts"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+#, php-format
+msgid "Post No.%d approved."
+msgstr "Publication nº %d approuvée."
+
+msgid "Sorry, there doesn't appear to be a post with that ID."
+msgstr "Désolé, il ne semble pas y avoir de publication avec cet identifiant."
+
+msgid "Stickied"
+msgstr "Épinglé"
+
+msgid "Unstickied"
+msgstr ""
+
+msgid "Form data was lost. Please go back and try again."
+msgstr ""
+"Les données du formulaire ont été perdues. Veuillez retourner en arrière et "
+"réessayer."
+
+msgid "Locked"
+msgstr "Verrouillé"
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Password updated"
+msgstr "Mot de passe mis à jour"
+
+msgid "Please enter the CAPTCHA text."
+msgstr "Veuillez saisir le texte du CAPTCHA."
+
+msgid ""
+"Incorrect CAPTCHA text entered.  Please try again.<br>Click the image to "
+"retrieve a new CAPTCHA."
+msgstr ""
+"Texte CAPTCHA saisi incorrect.  Veuillez réessayer. <br>Cliquez l’image pour "
+"récupérer un nouveau CAPTCHA."
+
+#, php-format
+msgid ""
+"Please shorten your message, or post it in multiple parts. Your message is "
+"%1$d characters long, and the maximum allowed is %2$d."
+msgstr ""
+"Veuillez raccourcir votre message ou le publier en plusieurs parties. Votre "
+"message est long de %1$d caractères, et le maximum autorisé est %2$d."
+
+msgid "Invalid key."
+msgstr "Clé invalide."
+
+msgid "Invalid username or password."
+msgstr "Nom d'utilisateur ou mot de passe invalide."
+
+#, php-format
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive (%s) in php.ini."
+msgstr ""
+"Le fichier téléversé excède la directive upload_max_filesize (%s) du fichier "
+"php.ini."
+
+msgid "The uploaded file was only partially uploaded."
+msgstr "Le fichier téléversé n’a été que partiellement téléversé."
+
+msgid "No file was uploaded."
+msgstr "Aucun fichier n’a été téléversé."
+
+msgid "Missing a temporary folder."
+msgstr "Un dossier temporaire est manquant."
+
+msgid "Failed to write file to disk"
+msgstr "Échec de l’écriture du fichier sur le disque"
+
+msgid "Unable to save the uploaded file."
+msgstr "Impossible d’enregistrer le fichier téléversé."
+
+#, php-format
+msgid ""
+"Duplicate file uploaded. That file has already been posted <a href=\"%s"
+"\">here</a>."
+msgstr ""
+"Fichier en double téléversé. Ce fichier a déjà été publié <a href=\"%s"
+"\">ici</a>."
+
+msgid ""
+"Unable to read the uploaded file while creating its thumbnail. A common "
+"cause for this is an incorrect extension when the file is actually of a "
+"different type."
+msgstr ""
+"Impossible de lire le fichier téléversé lors de la création de sa miniature. "
+"Habituellement, ceci est dû à une extension incorrecte lorsque le fichier "
+"est en fait d’un type différent."
+
+msgid "File transfer failure. Please retry the submission."
+msgstr "Échec du transfert du fichier. Veuillez réessayer l'envoi."
+
+msgid ""
+"Failed to read the MIME type and size of the uploaded file. Please retry the "
+"submission."
+msgstr ""
+"Échec de lecture du type MIME et de la taille du fichier. Veuillez réessayer "
+"l'envoi."
+
+msgid "Could not copy uploaded file."
+msgstr "Impossible de copier le fichier téléversé."
+
+msgid "File transfer failure. Please go back and try again."
+msgstr ""
+"Échec du transfert de fichier. Veuillez retourner en arrière et réessayer."
+
+msgid "Sorry, your video appears to be corrupt."
+msgstr "Désolé, votre vidéo semble être corrompue."
+
+#, php-format
+msgid "Supported file type is %s"
+msgstr "Le type de fichier pris en charge est %s"
+
+#, php-format
+msgid "Supported file types are %1$s and %2$s."
+msgstr "Les types de fichier pris en charge sont %1$s et %2$s."
+
+msgid "Raw HTML"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid ""
+"Text entered in the Message field will be posted as is with no formatting "
+"applied."
+msgstr ""
+"Le texte saisi dans le champ Message sera affiché tel quel, sans aucun "
+"formatage."
+
+msgid "Line-breaks must be specified with \"&lt;br&gt;\"."
+msgstr "Les sauts de ligne doivent être spécifiés avec « &lt;br&gt; »."
+
+msgid "Reply to"
+msgstr "Répondre à"
+
+msgid "0 to start a new thread"
+msgstr "0 pour démarrer un nouveau fil"
+
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#, php-format
+msgid "Maximum file size allowed is %s."
+msgstr "La taille maximale du fichier autorisée est %s."
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Embed"
+msgstr "Incorporer"
+
+msgid "(paste a YouTube URL)"
+msgstr "(coller une URL YouTube)"
+
+msgid "All posts are moderated before being shown."
+msgstr "Tous les messages sont lus par un modérateur avant publication."
+
+msgid "All posts with a file attached are moderated before being shown."
+msgstr ""
+"Les messages avec fichier joint sont lus par un modérateur avant publication."
+
+#, php-format
+msgid "Images greater than %s will be thumbnailed."
+msgstr "Les images supérieures à %s seront affichées en miniature."
+
+#, php-format
+msgid "Currently %s unique user posts."
+msgstr "Actuellement %s publications d’utilisateurs uniques."
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "E-mail"
+msgstr "Courriel"
+
+msgid "Subject"
+msgstr "Objet"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "(for post and file deletion)"
+msgstr "(pour la suppression de publications et de fichiers)"
+
+msgid "Report"
+msgstr "Signaler"
+
+msgid "Reply"
+msgstr "Répondre"
+
+msgid "Post truncated. Click Reply to view."
+msgstr "Publication tronquée. Cliquez sur Répondre pour voir."
+
+msgid "1 post omitted. Click Reply to view."
+msgstr "1 publication omise. Cliquez sur Répondre pour voir."
+
+#, php-format
+msgid "%d posts omitted. Click Reply to view."
+msgstr "%d publications omises. Cliquez sur Répondre pour voir."
+
+msgid "Catalog"
+msgstr "Catalogue"
+
+msgid "Manage"
+msgstr "Gérer"
+
+msgid "Previous"
+msgstr "Précédent"
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "Return"
+msgstr "Entrée"
+
+msgid "Posting mode: Reply"
+msgstr "Mode de publication : Répondre"
+
+msgid "Style"
+msgstr "Style"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Delete Post"
+msgstr "Supprimer la publication"
+
+msgid "Accounts"
+msgstr "Comptes"
+
+msgid "Bans"
+msgstr "Interdictions"
+
+msgid "Keywords"
+msgstr "Mots-clés"
+
+msgid "Migrate Database"
+msgstr "Migrer la base de données"
+
+msgid "Moderate Post"
+msgstr "Modérer la publication"
+
+msgid "Moderation Log"
+msgstr ""
+
+msgid "Rebuild All"
+msgstr "Tout reconstruire"
+
+msgid "Reports"
+msgstr "Signalements"
+
+msgid "Staff Post"
+msgstr ""
+
+msgid "Status"
+msgstr "État"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+msgid "Manage mode"
+msgstr "Gérer le mode"
+
+msgid "Log In"
+msgstr "Se connecter"
+
+msgid "Enter a username and password"
+msgstr "Saisissez un nom d'utilisateur et un mot de passe"
+
+msgid "No logs."
+msgstr ""
+
+msgid "Moderation log"
+msgstr ""
+
+msgid "Reported posts"
+msgstr "Publications signalées"
+
+#, php-format
+msgid "%1$d report by %2$s"
+msgstr "%1$d signalement par %2$s"
+
+#, php-format
+msgid "%1$d reports by %2$s"
+msgstr "%1$d signalements par %2$s"
+
+#, php-format
+msgid "%d reports"
+msgstr "%d signalements"
+
+#, php-format
+msgid "Reported by %s"
+msgstr "Signalé par %s"
+
+msgid "Moderate"
+msgstr "Modérer"
+
+msgid "There are currently no reported posts."
+msgstr "Aucune publication n'a été signalée jusqu'à présent."
+
+msgid "Add an account"
+msgstr "Ajouter un compte"
+
+msgid "Update an account"
+msgstr "Mettre à jour un compte"
+
+msgid "Leave blank to maintain current password"
+msgstr "Laissez vide pour conserver le mot de passe actuel"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Role"
+msgstr "Rôle"
+
+msgid "Choose a role"
+msgstr "Sélectionnez un rôle"
+
+msgid "Last active"
+msgstr "Dernière activité"
+
+msgid "Never"
+msgstr "Jamais"
+
+msgid "update"
+msgstr "mettre à jour"
+
+msgid "Add a ban"
+msgstr "Bannir"
+
+msgid ""
+"Multiple IP addresses may be banned at once by separating each address with "
+"a comma."
+msgstr ""
+
+msgid "IP Address"
+msgstr "Adresse IP"
+
+msgid "Expire(sec)"
+msgstr "Bannir pour"
+
+msgid "never"
+msgstr "jamais"
+
+msgid "Optional."
+msgstr ""
+
+msgid "1 hour"
+msgstr "1 heure"
+
+msgid "1 day"
+msgstr "1 jour"
+
+msgid "2 days"
+msgstr "2 jours"
+
+msgid "1 week"
+msgstr "1 semaine"
+
+msgid "2 weeks"
+msgstr "2 semaines"
+
+msgid "1 month"
+msgstr "1 mois"
+
+msgid "Append a message to the post. Optional."
+msgstr ""
+
+msgid "Set At"
+msgstr "Définir à"
+
+msgid "Expires"
+msgstr "Expire"
+
+msgid "Does not expire"
+msgstr "N’expire pas"
+
+msgid "lift"
+msgstr "lever"
+
+msgid "Moderate a post"
+msgstr "Modérer une publication"
+
+msgid "Post ID"
+msgstr "Identifiant de publication"
+
+msgid "Tip"
+msgstr ""
+
+msgid ""
+"While browsing the image board, you can easily moderate a post if you are "
+"logged in."
+msgstr ""
+"En surfant dans le forum, vous pouvez modérer facilement en étant connecté."
+
+msgid ""
+"Tick the box next to a post and click \"Delete\" at the bottom of the page "
+"with a blank password."
+msgstr ""
+"Cochez la case à côté d’une publication et cliquez sur « Supprimer » en bas "
+"de la page avec un mot de passe vide."
+
+#, php-format
+msgid "Moderate %d posts"
+msgstr ""
+
+msgid "Delete all"
+msgstr ""
+
+msgid "Ban all"
+msgstr ""
+
+msgid "1 thread and 1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "1 thread and %d replies will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%d threads and 1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%1$d threads and %2$d replies will be deleted."
+msgstr ""
+
+msgid "1 IP address will be banned."
+msgstr ""
+
+#, php-format
+msgid "%d IP addresses will be banned."
+msgstr ""
+
+#, php-format
+msgid " A ban record already exists for %s"
+msgstr " %s est déjà banni(e)"
+
+msgid "Only an administrator may ban an IP address."
+msgstr "L'administrateur est le seul à pouvoir bannir une adresse IP."
+
+#, php-format
+msgid "IP address: %s"
+msgstr "Adresse IP : %s"
+
+msgid "Thread"
+msgstr "Fil"
+
+msgid "1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%d replies will be deleted."
+msgstr ""
+
+msgid "Belongs to "
+msgstr ""
+
+msgid "Un-sticky"
+msgstr "Non épinglé"
+
+msgid "Sticky"
+msgstr "Épinglé"
+
+msgid "Return this thread to a normal state."
+msgstr "Faire revenir ce fil à un état normal."
+
+msgid "Keep this thread at the top of the board."
+msgstr "Conserver ce fil en haut du tableau."
+
+msgid "Unlock"
+msgstr "Déverrouiller"
+
+msgid "Lock"
+msgstr "Verrouiller"
+
+msgid "Allow replying to this thread."
+msgstr "Autoriser les réponses sur ce fil."
+
+msgid "Disallow replying to this thread."
+msgstr "Ne pas autoriser les réponses sur ce fil."
+
+#, php-format
+msgid "Moderating No.%d"
+msgstr "N° %d en modération"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Delete thread"
+msgstr "Supprimer le fil"
+
+msgid "Delete reply"
+msgstr ""
+
+msgid "Ban poster"
+msgstr "Bannir l'auteur"
+
+msgid "Approve"
+msgstr "Approuver"
+
+msgid "report"
+msgstr "signalement"
+
+msgid "reports"
+msgstr "signalements"
+
+msgid "Sorry, there doesn't appear to be a keyword with that ID."
+msgstr "Désolé, il ne semble pas y avoir de mot-clé avec cet identifiant."
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "Hide until approved"
+msgstr ""
+
+msgid "Delete and ban for 1 hour"
+msgstr "Supprimer et bannir pour 1 heure"
+
+msgid "Delete and ban for 1 day"
+msgstr "Supprimer et bannir pour 1 jour"
+
+msgid "Delete and ban for 2 days"
+msgstr "Supprimer et bannir pour 2 jours"
+
+msgid "Delete and ban for 1 week"
+msgstr "Supprimer et bannir pour 1 semaine"
+
+msgid "Delete and ban for 2 weeks"
+msgstr "Supprimer et bannir pour 2 semaines"
+
+msgid "Delete and ban for 1 month"
+msgstr "Supprimer et bannir pour 1 mois"
+
+msgid "Delete and ban permanently"
+msgstr "Supprimer et bannir définitivement"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "thread"
+msgstr "fil"
+
+msgid "threads"
+msgstr "fils"
+
+msgid "ban"
+msgstr "interdiction"
+
+msgid "bans"
+msgstr "interdictions"
+
+msgid "More Info"
+msgstr "Plus d'informations"
+
+msgid "Pending posts"
+msgstr "Publications en attente"
+
+msgid "Recent posts"
+msgstr "Publications récentes"
+
+msgid "Info"
+msgstr "Informations"
+
+#~ msgid "Sorry, there is already a ban on record for that IP address."
+#~ msgstr ""
+#~ "Désolé, il y a déjà une interdiction enregistrée pour cette adresse IP."
+
+#~ msgid "Embed:"
+#~ msgstr "Incorporer :"
+
+#~ msgid "File:"
+#~ msgstr "Fichier :"
+
+#~ msgid "Raw Post"
+#~ msgstr "Publication brute"
+
+#~ msgid "Change password"
+#~ msgstr "Modifier le mot de passe"
+
+#~ msgid "optional"
+#~ msgstr "facultatif"
+
+#~ msgid "Tip:"
+#~ msgstr "Astuce :"
+
+#~ msgid "Action:"
+#~ msgstr "Action :"
+
+#~ msgid "TINYIB_TRIPSEED and TINYIB_ADMINPASS must be configured."
+#~ msgstr "TINYIB_TRIPSEED et TINYIB_ADMINPASS doivent être configurés."
+
+#~ msgid "%s uploaded."
+#~ msgstr "%s téléversé."
+
+#~ msgid "Ban record added for %s"
+#~ msgstr "Enregistrement d'interdiction ajouté pour %s"
+
+#~ msgid "Ban record lifted for %s"
+#~ msgstr "Interdiction levée pour %s"
+
+#~ msgid "Post No.%d deleted."
+#~ msgstr "Publication nº %d supprimée."
+
+#~ msgid "Reports cleared."
+#~ msgstr "Signalements effacés."
+
+#~ msgid "This will delete the entire thread below."
+#~ msgstr "Cela va supprimer complètement le fil ci-dessous."
+
+#~ msgid "This will delete the post below."
+#~ msgstr "Ceci va supprimer la publication ci-dessous."
+
+#~ msgid "Post"
+#~ msgstr "Publication"
+
+#~ msgid "Delete post"
+#~ msgstr "Supprimer la publication"
+
+#~ msgid "Clear reports"
+#~ msgstr "Effacer les signalements"
+
+#~ msgid "Enter an administrator or moderator password"
+#~ msgstr "Saisissez un mot de passe administrateur ou modérateur"
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonyme"
+
+#~ msgid "A %s is required to start a thread."
+#~ msgstr "Un %s est requis pour commencer une discussion."
+
+#~ msgid "Ban an IP address"
+#~ msgstr "Bannir une adresse IP"
+
+#~ msgid "Reason:"
+#~ msgstr "Motif :"

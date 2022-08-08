@@ -1,0 +1,849 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: trevor@rocketnine.space\n"
+"POT-Creation-Date: 2021-08-05 11:29-0700\n"
+"PO-Revision-Date: 2021-10-06 17:04+0000\n"
+"Last-Translator: Anonymous <8l1nkfa1@temporary-mail.net>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/tinyib/tinyib/"
+"ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.9-dev\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: imgboard.php\n"
+"X-Poedit-SearchPath-1: inc/html.php\n"
+"X-Poedit-SearchPath-2: inc/functions.php\n"
+
+msgid "Click here to go back"
+msgstr "戻るにはここをクリック"
+
+msgid "TINYIB_HCAPTCHA_SITE and TINYIB_HCAPTCHA_SECRET  must be configured."
+msgstr "TINYIB_HCAPTCHA_SITEとTINYIB_HCAPTCHA_SECRETの設定が必要です。"
+
+msgid "TINYIB_RECAPTCHA_SITE and TINYIB_RECAPTCHA_SECRET  must be configured."
+msgstr "TINYIB_RECAPTCHA_SITEとTINYIB_RECAPTCHA_SECRETの設定が必要です。"
+
+msgid "TINYIB_TRIPSEED must be configured."
+msgstr "TINYIB_TRIPSEEDの設定が必要です。"
+
+msgid "Unknown database mode specified."
+msgstr "不明なデータベースモードが指定されました。"
+
+#, php-format
+msgid "Directory '%s' can not be written to.  Please modify its permissions."
+msgstr "ディレクトリ '%s' は書き込めません。 パーミッションを変更してください。"
+
+msgid "Posting is currently disabled.<br>Please try again in a few moments."
+msgstr "現在、投稿はできません。<br>しばらくしてからもう一度投稿してください。"
+
+msgid "Invalid parent thread ID supplied, unable to create post."
+msgstr "指定された親スレッドIDが無効なため、投稿を作成できません。"
+
+msgid "Replies are not allowed to locked threads."
+msgstr "ロックされたスレッドへの返信はできません。"
+
+msgid "Your post contains a blocked keyword."
+msgstr "あなたの投稿には、ブロックされたキーワードが含まれています。"
+
+msgid "Keyword"
+msgstr "キーワード"
+
+#, php-format
+msgid "Your IP address (%1$s) is banned until %2$s."
+msgstr "あなたのIPアドレス(%1$s)は、%2$sまで禁止されています。"
+
+#, php-format
+msgid "Your IP address (%s) is permanently banned."
+msgstr "あなたのIPアドレス(%s)は永久に禁止されています。"
+
+msgid "Reason"
+msgstr "理由"
+
+msgid "Embedding a URL and uploading a file at the same time is not supported."
+msgstr "URLの埋め込みとファイルのアップロードを同時に行うことはできません。"
+
+#, php-format
+msgid "Invalid embed URL. Only %s URLs are supported."
+msgstr "埋め込み URL が無効です。%sのURLのみがサポートされています。"
+
+#, php-format
+msgid "That file is larger than %s."
+msgstr "そのファイルは %s よりも大きいです。"
+
+msgid "Failed to download file at specified URL."
+msgstr "指定されたURLのファイルのダウンロードに失敗しました。"
+
+msgid "Error while processing audio/video."
+msgstr "オーディオ/ビデオの処理中にエラーが発生しました。"
+
+msgid "Could not create thumbnail."
+msgstr "サムネイルを作成できませんでした。"
+
+msgid "upload a file or embed a URL"
+msgstr "ファイルのアップロードやURLの埋め込み"
+
+msgid "upload a file"
+msgstr "ファイルのアップロード"
+
+msgid "embed a URL"
+msgstr "URLの埋め込み"
+
+#, php-format
+msgid "Please %s to start a new thread."
+msgstr "%sを入力して新しいスレッドを作成してください。"
+
+#, php-format
+msgid "Please enter a message and/or %s."
+msgstr "メッセージや%sを入力してください。"
+
+msgid "Please enter a message."
+msgstr "メッセージを入力してください。"
+
+#, php-format
+msgid "Please %s."
+msgstr "%sをお願いします。"
+
+#, php-format
+msgid "Your %s will be shown <b>once it has been approved</b>."
+msgstr "あなたの%sは、<b>承認されると</b>表示されます。"
+
+msgid "Updating thread..."
+msgstr "スレッドを更新中..."
+
+msgid "Updating index..."
+msgstr "インデックスを更新中..."
+
+msgid "Created staff post"
+msgstr "スタッフの投稿を作成"
+
+msgid "This post has been deleted"
+msgstr "この投稿は削除されました"
+
+msgid "This post requires moderation before it can be displayed"
+msgstr "この投稿を表示するにはモデレーションが必要です"
+
+msgid "Automatic refreshing is disabled."
+msgstr "自動更新は無効です。"
+
+msgid "Reporting is disabled."
+msgstr "通報は無効です。"
+
+msgid ""
+"Sorry, an invalid post identifier was sent. Please go back, refresh the "
+"page, and try again."
+msgstr "申し訳ありませんが、無効な投稿識別子が送信されました。戻ってページを更新してから、もう一度試してください。"
+
+msgid "Moderators have determined that post does not break any rules."
+msgstr "モデレーターは、その投稿がルールに違反していないと判断しました。"
+
+msgid "You have already submitted a report for that post."
+msgstr "あなたは既にその投稿を通報しています。"
+
+msgid "(enter the text below)"
+msgstr "(以下に文字を入力してください)"
+
+msgid "Please complete a CAPTCHA to submit your report"
+msgstr "通報するには、CAPTCHAを入力してください"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Post reported."
+msgstr "投稿が通報されました。"
+
+msgid "Tick the box next to a post and click \"Delete\" to delete it."
+msgstr "投稿の横にあるチェックボックスにチェックを入れ、「削除」をクリックすると、その投稿が削除されます。"
+
+msgid ""
+"Post deletion is currently disabled.<br>Please try again in a few moments."
+msgstr "投稿の削除は現在無効になっています。<br>しばらくしてからもう一度試してください。"
+
+msgid "Post deleted."
+msgstr "投稿が削除されました。"
+
+msgid "Invalid password."
+msgstr "パスワードが無効です。"
+
+msgid "Rebuilt board."
+msgstr "板が再構築されました。"
+
+msgid "Access denied"
+msgstr "アクセスが拒否されました"
+
+msgid "Account not found."
+msgstr "アカウントが見つかりません。"
+
+msgid "This account may not be updated while TINYIB_ADMINPASS is set."
+msgstr "TINYIB_ADMINPASSが設定されている間は、このアカウントは更新されない可能性があります。"
+
+msgid "This account may not be updated while TINYIB_MODPASS is set."
+msgstr "TINYIB_MODPASSが設定されている間は、このアカウントは更新されない可能性があります。"
+
+msgid "A password is required."
+msgstr "パスワードが必要です。"
+
+msgid "Invalid role."
+msgstr "無効な役割です。"
+
+#, php-format
+msgid "Added account %s"
+msgstr "アカウント %s を追加"
+
+msgid "Added account"
+msgstr "アカウントを追加"
+
+#, php-format
+msgid "Renamed account %1$s as %2$s"
+msgstr "アカウント %1$s の名前を %2$s に変更しました"
+
+#, php-format
+msgid "Changed password of account %s"
+msgstr "アカウント %s のパスワードが変更されました"
+
+msgid "Super-administrator"
+msgstr "スーパー・アドミニストレーター"
+
+msgid "Administrator"
+msgstr "アドミニストレーター"
+
+msgid "Moderator"
+msgstr "モデレーター"
+
+msgid "Disabled"
+msgstr "無効化"
+
+#, php-format
+msgid "Changed role of account %s to %s"
+msgstr "アカウント %s の役割を %s に変更しました"
+
+msgid "Updated account"
+msgstr "更新したアカウント"
+
+msgid "permanently"
+msgstr "永久的に"
+
+#, php-format
+msgid "until %s"
+msgstr "%sまで"
+
+#, php-format
+msgid "Banned %s %s"
+msgstr "禁止された %s %s"
+
+#, php-format
+msgid "Banned %s %s: %s"
+msgstr "禁止された %s %s: %s"
+
+#, php-format
+msgid "Added ban message to %s"
+msgstr "%sに禁止メッセージを追加"
+
+msgid "Banned 1 IP address"
+msgstr "禁止された1つのIPアドレス"
+
+#, php-format
+msgid "Banned %d IP addresses"
+msgstr "禁止された %d 個の IP アドレス"
+
+#, php-format
+msgid "Lifted ban on %s"
+msgstr "%sを解禁"
+
+msgid "Sorry, that keyword has already been added."
+msgstr "申し訳ありませんが、そのキーワードは既に追加されています。"
+
+#, php-format
+msgid "Updated keyword %s"
+msgstr "更新されたキーワード %s"
+
+msgid "Keyword updated."
+msgstr "キーワードを更新しました。"
+
+msgid "Keyword added."
+msgstr "キーワードが追加されました。"
+
+msgid "That keyword does not exist."
+msgstr "そのキーワードは存在しません。"
+
+#, php-format
+msgid "Deleted keyword %s"
+msgstr "削除されたキーワード %s"
+
+msgid "Keyword deleted."
+msgstr "キーワードを削除しました。"
+
+#, php-format
+msgid "Deleted %s"
+msgstr "削除された %s"
+
+msgid "Deleted 1 post"
+msgstr "1件の投稿を削除"
+
+#, php-format
+msgid "Deleted %d posts"
+msgstr "%d 件の投稿を削除"
+
+msgid "Approved"
+msgstr "承認済み"
+
+#, php-format
+msgid "Post No.%d approved."
+msgstr "投稿No.%dが承認されました。"
+
+msgid "Sorry, there doesn't appear to be a post with that ID."
+msgstr "申し訳ありませんが、そのIDの投稿はないようです。"
+
+msgid "Stickied"
+msgstr "固定"
+
+msgid "Unstickied"
+msgstr "固定解除"
+
+msgid "Form data was lost. Please go back and try again."
+msgstr "フォームデータが消えてしまいました。戻って再度試してください。"
+
+msgid "Locked"
+msgstr "ロック"
+
+msgid "Unlocked"
+msgstr "ロック解除"
+
+msgid "Passwords do not match."
+msgstr "パスワードが一致しません。"
+
+msgid "Password updated"
+msgstr "パスワードを更新"
+
+msgid "Please enter the CAPTCHA text."
+msgstr "CAPTCHAの文字を入力してください。"
+
+msgid ""
+"Incorrect CAPTCHA text entered.  Please try again.<br>Click the image to "
+"retrieve a new CAPTCHA."
+msgstr "CAPTCHAの文字が正しく入力されていません。 <br>画像をクリックすると、新しいCAPTCHAが表示されます。"
+
+#, php-format
+msgid ""
+"Please shorten your message, or post it in multiple parts. Your message is "
+"%1$d characters long, and the maximum allowed is %2$d."
+msgstr "メッセージを短くするか、複数回に分けて投稿してください。あなたのメッセージは %1$d 文字で、最大許容値は %2$d です。"
+
+msgid "Invalid key."
+msgstr "無効なキーです。"
+
+msgid "Invalid username or password."
+msgstr "ユーザー名またはパスワードが無効です。"
+
+#, php-format
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive (%s) in php.ini."
+msgstr "アップロードされたファイルが、php.iniのupload_max_filesizeディレクティブ（%s）を超えています。"
+
+msgid "The uploaded file was only partially uploaded."
+msgstr "アップロードされたファイルが一部しかアップロードされていません。"
+
+msgid "No file was uploaded."
+msgstr "アップロードされたファイルはありません。"
+
+msgid "Missing a temporary folder."
+msgstr "一時フォルダがありません。"
+
+msgid "Failed to write file to disk"
+msgstr "ファイルのディスクへの書き込みに失敗しました"
+
+msgid "Unable to save the uploaded file."
+msgstr "アップロードされたファイルを保存することができません。"
+
+#, php-format
+msgid ""
+"Duplicate file uploaded. That file has already been posted <a href=\"%s"
+"\">here</a>."
+msgstr "重複したファイルがアップロードされました。そのファイルはすでに<a href=\"%s\">ここ</a>に投稿されています。"
+
+msgid ""
+"Unable to read the uploaded file while creating its thumbnail. A common "
+"cause for this is an incorrect extension when the file is actually of a "
+"different type."
+msgstr ""
+"アップロードされたファイルのサムネイルを作成する際に、そのファイルを読み取ることができません。一般的な原因は、実際には別の種類のファイルであるにもかかわら"
+"ず、拡張子が正しくないからです。"
+
+msgid "File transfer failure. Please retry the submission."
+msgstr "ファイル転送に失敗しました。送信を再試行してください。"
+
+msgid ""
+"Failed to read the MIME type and size of the uploaded file. Please retry the "
+"submission."
+msgstr "アップロードされたファイルのMIMEタイプとサイズの読み取りに失敗しました。再度送信してください。"
+
+msgid "Could not copy uploaded file."
+msgstr "アップロードされたファイルをコピーできませんでした。"
+
+msgid "File transfer failure. Please go back and try again."
+msgstr "ファイル転送に失敗しました。戻ってからもう一度試してください。"
+
+msgid "Sorry, your video appears to be corrupt."
+msgstr "申し訳ありませんが、ビデオが破損しているようです。"
+
+#, php-format
+msgid "Supported file type is %s"
+msgstr "サポートされているファイルタイプは %s です"
+
+#, php-format
+msgid "Supported file types are %1$s and %2$s."
+msgstr "サポートされているファイル・タイプは %1$s と %2$s です。"
+
+msgid "Raw HTML"
+msgstr "生のHTML"
+
+msgid "Enable"
+msgstr "有効"
+
+msgid ""
+"Text entered in the Message field will be posted as is with no formatting "
+"applied."
+msgstr "メッセージ欄に入力された文章はフォーマットが適用されずそのまま掲載されます。"
+
+msgid "Line-breaks must be specified with \"&lt;br&gt;\"."
+msgstr "改行は必ず「&lt;br&gt;」で指定してください。"
+
+msgid "Reply to"
+msgstr "返信する"
+
+msgid "0 to start a new thread"
+msgstr "0から新しいスレッドを立てる"
+
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#, php-format
+msgid "Maximum file size allowed is %s."
+msgstr "許容される最大ファイルサイズは %s です。"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "Embed"
+msgstr "埋め込み"
+
+msgid "(paste a YouTube URL)"
+msgstr "(YouTubeのURLを貼り付ける)"
+
+msgid "All posts are moderated before being shown."
+msgstr "すべての投稿は、表示される前にモデレートされます。"
+
+msgid "All posts with a file attached are moderated before being shown."
+msgstr "ファイルが添付されている投稿は、すべてモデレートされてから表示されます。"
+
+#, php-format
+msgid "Images greater than %s will be thumbnailed."
+msgstr "%s以上の画像はサムネイル表示されます。"
+
+#, php-format
+msgid "Currently %s unique user posts."
+msgstr "現在、ユーザーの投稿は %s 件あります。"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Subject"
+msgstr "題名"
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "(for post and file deletion)"
+msgstr "(投稿・ファイル削除用)"
+
+msgid "Report"
+msgstr "通報"
+
+msgid "Reply"
+msgstr "返信"
+
+msgid "Post truncated. Click Reply to view."
+msgstr "投稿が途切れています。返信をクリックすると表示されます。"
+
+msgid "1 post omitted. Click Reply to view."
+msgstr "1件の投稿が省略されています。返信をクリックすると表示されます。"
+
+#, php-format
+msgid "%d posts omitted. Click Reply to view."
+msgstr "%dの投稿が省略されています。返信をクリックすると表示されます。"
+
+msgid "Catalog"
+msgstr "カタログ"
+
+msgid "Manage"
+msgstr "管理"
+
+msgid "Previous"
+msgstr "前"
+
+msgid "Next"
+msgstr "次"
+
+msgid "Return"
+msgstr "戻る"
+
+msgid "Posting mode: Reply"
+msgstr "投稿モード：返信"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Delete Post"
+msgstr "投稿の削除"
+
+msgid "Accounts"
+msgstr "アカウント"
+
+msgid "Bans"
+msgstr "禁止"
+
+msgid "Keywords"
+msgstr "キーワード"
+
+msgid "Migrate Database"
+msgstr "データベースの移行"
+
+msgid "Moderate Post"
+msgstr "投稿のモデレート"
+
+msgid "Moderation Log"
+msgstr "モデレーションログ"
+
+msgid "Rebuild All"
+msgstr "すべて再構築"
+
+msgid "Reports"
+msgstr "通報"
+
+msgid "Staff Post"
+msgstr "スタッフの投稿"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Change Password"
+msgstr "パスワードの変更"
+
+msgid "Log Out"
+msgstr "ログアウト"
+
+msgid "Manage mode"
+msgstr "管理モード"
+
+msgid "Log In"
+msgstr "ログイン"
+
+msgid "Enter a username and password"
+msgstr "ユーザー名とパスワードを入力"
+
+msgid "No logs."
+msgstr "ログがありません。"
+
+msgid "Moderation log"
+msgstr "モデレーションログ"
+
+msgid "Reported posts"
+msgstr "通報された投稿"
+
+#, php-format
+msgid "%1$d report by %2$s"
+msgstr "%2$sによる%1$dの通報"
+
+#, php-format
+msgid "%1$d reports by %2$s"
+msgstr "%2$sによる%1$dの通報"
+
+#, php-format
+msgid "%d reports"
+msgstr "%d件の通報"
+
+#, php-format
+msgid "Reported by %s"
+msgstr "通報者: %s"
+
+msgid "Moderate"
+msgstr "モデレート"
+
+msgid "There are currently no reported posts."
+msgstr "現在、通報された投稿はありません。"
+
+msgid "Add an account"
+msgstr "アカウントの追加"
+
+msgid "Update an account"
+msgstr "アカウントの更新"
+
+msgid "Leave blank to maintain current password"
+msgstr "現在のパスワードを維持する場合は、空欄のままにします"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Role"
+msgstr "役割"
+
+msgid "Choose a role"
+msgstr "役割を選択"
+
+msgid "Last active"
+msgstr "最後の活動"
+
+msgid "Never"
+msgstr "決して"
+
+msgid "update"
+msgstr "更新"
+
+msgid "Add a ban"
+msgstr "禁止の追加"
+
+msgid ""
+"Multiple IP addresses may be banned at once by separating each address with "
+"a comma."
+msgstr "複数のIPアドレスを一度に禁止するには、各アドレスをコンマで区切ります。"
+
+msgid "IP Address"
+msgstr "IPアドレス"
+
+msgid "Expire(sec)"
+msgstr "有効期限(秒)"
+
+msgid "never"
+msgstr "決して"
+
+msgid "Optional."
+msgstr "任意です。"
+
+msgid "1 hour"
+msgstr "1時間"
+
+msgid "1 day"
+msgstr "1日"
+
+msgid "2 days"
+msgstr "2日"
+
+msgid "1 week"
+msgstr "1週間"
+
+msgid "2 weeks"
+msgstr "2週間"
+
+msgid "1 month"
+msgstr "1ヶ月"
+
+msgid "Append a message to the post. Optional."
+msgstr "投稿にメッセージを追加します。任意です。"
+
+msgid "Set At"
+msgstr "セット内容"
+
+msgid "Expires"
+msgstr "期限"
+
+msgid "Does not expire"
+msgstr "有効期限なし"
+
+msgid "lift"
+msgstr "リフト"
+
+msgid "Moderate a post"
+msgstr "投稿の修正"
+
+msgid "Post ID"
+msgstr "投稿ID"
+
+msgid "Tip"
+msgstr "ヒント"
+
+msgid ""
+"While browsing the image board, you can easily moderate a post if you are "
+"logged in."
+msgstr "画像掲示板を閲覧中に、ログインしていれば簡単に投稿を修正することができます。"
+
+msgid ""
+"Tick the box next to a post and click \"Delete\" at the bottom of the page "
+"with a blank password."
+msgstr "投稿の横にあるチェックボックスにチェックを入れ、空のパスワードでページ下部の「削除」をクリックします。"
+
+#, php-format
+msgid "Moderate %d posts"
+msgstr "%d件の投稿をモデレート"
+
+msgid "Delete all"
+msgstr "すべて削除"
+
+msgid "Ban all"
+msgstr "すべて禁止"
+
+msgid "1 thread and 1 reply will be deleted."
+msgstr "1個のスレッドと1件の返信が削除されます。"
+
+#, php-format
+msgid "1 thread and %d replies will be deleted."
+msgstr "1個のスレッドと%d件の返信が削除されます。"
+
+#, php-format
+msgid "%d threads and 1 reply will be deleted."
+msgstr "%d個のスレッドと1件の返信が削除されます。"
+
+#, php-format
+msgid "%1$d threads and %2$d replies will be deleted."
+msgstr "%1$d個のスレッドと%2$d件の返信が削除されます。"
+
+msgid "1 IP address will be banned."
+msgstr "1個のIPアドレスが禁止されます。"
+
+#, php-format
+msgid "%d IP addresses will be banned."
+msgstr "%d個のIPアドレスが禁止されます。"
+
+#, php-format
+msgid " A ban record already exists for %s"
+msgstr " %sの禁止レコードは既に存在しています"
+
+msgid "Only an administrator may ban an IP address."
+msgstr "IPアドレスを禁止できるのは、管理者のみです。"
+
+#, php-format
+msgid "IP address: %s"
+msgstr "IPアドレス: %s"
+
+msgid "Thread"
+msgstr "スレッド"
+
+msgid "1 reply will be deleted."
+msgstr "1件の返信が削除されます。"
+
+#, php-format
+msgid "%d replies will be deleted."
+msgstr "%d件の返信が削除されます。"
+
+msgid "Belongs to "
+msgstr "属する "
+
+msgid "Un-sticky"
+msgstr "固定解除"
+
+msgid "Sticky"
+msgstr "固定"
+
+msgid "Return this thread to a normal state."
+msgstr "このスレッドを通常の状態に戻す。"
+
+msgid "Keep this thread at the top of the board."
+msgstr "このスレッドを掲示板のトップに固定する。"
+
+msgid "Unlock"
+msgstr "ロック解除"
+
+msgid "Lock"
+msgstr "ロック"
+
+msgid "Allow replying to this thread."
+msgstr "このスレッドへの返信を許可する。"
+
+msgid "Disallow replying to this thread."
+msgstr "このスレッドへの返信を禁止する。"
+
+#, php-format
+msgid "Moderating No.%d"
+msgstr "No.%dをモデレーティング"
+
+msgid "Action"
+msgstr "処置"
+
+msgid "Delete thread"
+msgstr "スレッドを削除"
+
+msgid "Delete reply"
+msgstr "返信を削除"
+
+msgid "Ban poster"
+msgstr "投稿者を禁止"
+
+msgid "Approve"
+msgstr "承認"
+
+msgid "report"
+msgstr "通報"
+
+msgid "reports"
+msgstr "通報"
+
+msgid "Sorry, there doesn't appear to be a keyword with that ID."
+msgstr "申し訳ありませんが、そのIDを持つキーワードはないようです。"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Hide until approved"
+msgstr "承認されるまで非表示"
+
+msgid "Delete and ban for 1 hour"
+msgstr "削除と1時間禁止"
+
+msgid "Delete and ban for 1 day"
+msgstr "削除と1日間禁止"
+
+msgid "Delete and ban for 2 days"
+msgstr "削除と2日間禁止"
+
+msgid "Delete and ban for 1 week"
+msgstr "削除と1週間禁止"
+
+msgid "Delete and ban for 2 weeks"
+msgstr "削除と2週間禁止"
+
+msgid "Delete and ban for 1 month"
+msgstr "削除と1ヶ月禁止"
+
+msgid "Delete and ban permanently"
+msgstr "削除と永久的に禁止"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "thread"
+msgstr "スレッド"
+
+msgid "threads"
+msgstr "スレッド"
+
+msgid "ban"
+msgstr "禁止"
+
+msgid "bans"
+msgstr "禁止"
+
+msgid "More Info"
+msgstr "詳細"
+
+msgid "Pending posts"
+msgstr "保留中の投稿"
+
+msgid "Recent posts"
+msgstr "最近の投稿"
+
+msgid "Info"
+msgstr "情報"

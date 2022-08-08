@@ -1,0 +1,205 @@
+/*
+    background: #272822
+    foreground: #36372f
+    text: #F8F8F2
+    link: #AE81FF
+    text-dark: #75715E
+*/
+
+html, body {
+	background: #272822;
+	color: #F8F8F2;
+	font-family: 'Arial' !important;
+    font-size: 13px;
+}
+
+a {
+	color: #66D9EF;
+}
+
+a:hover {
+	color: #F92672;
+}
+
+hr {
+	color: #36372f;
+	background-color: #36372f;
+}
+
+.reflink a:hover {
+	color: #F92672;
+}
+
+.logo {
+	clear: both;
+	text-align: center;
+	font-size: 2.5em;
+    font-weight: bold;
+	color: #F8F8F2;
+	width: 100%;
+}
+
+.replymode {
+	background: #36372f;
+	text-align: center;
+	padding: 2px;
+	color: #F8F8F2;
+	width: 100%;
+}
+
+.manageinfo {
+	background: #36372f;
+	text-align: center;
+	padding: 2px;
+	color: #F8F8F2;
+	width: 100%;
+}
+
+.catalogmode {
+	background: #36372f;
+	text-align: center;
+	padding: 2px;
+	color: #F8F8F2;
+	width: 100%;
+}
+
+.rules {
+	/*font-size:0.7em;*/
+	width: 468px;
+	font-family: sans-serif;
+}
+
+.rules li {
+	margin-left: 1em;
+	/*text-indent: 0em;*/
+}
+
+.postblock {
+	background: #75715E;
+	color: #F8F8F2;
+}
+
+.footer {
+	font-family: serif;
+}
+
+.passvalid {
+	background: #36372f;
+	text-align: center;
+	width: 100%;
+	color: #F8F8F2;
+}
+
+.dellist {
+	font-weight: bold;
+	text-align: center;
+}
+
+.delbuttons {
+	text-align: center;
+	padding-bottom: 4px;
+
+}
+
+.managehead {
+	background: #AAAA66;
+	color: #400000;
+	padding: 0;
+}
+
+.postlists {
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0;
+	color: #800000;
+}
+
+.unkfunc {
+	background: inherit;
+	color: #A6E22E;
+}
+
+.boardtitle {
+	background: inherit;
+	color: #F92672;
+	font-weight: 800;
+}
+
+.filesize {
+	text-decoration: none;
+}
+
+.filetitle {
+	background: inherit;
+	color: #F92672;
+	font-weight: 800;
+}
+
+.postername {
+	color: #AE81FF;
+	font-weight: bold;
+}
+
+.postertrip {
+	color: #AE81FF;
+}
+
+.oldpost {
+	color: #F92672;
+	font-weight: 800;
+}
+
+.omittedposts {
+	color: #75715E;
+}
+
+.reply {
+	background: #36372f !important;
+	color: #F8F8F2 !important;
+}
+
+.replyhl {
+	background: #36372f;
+	color: #F8F8F2;
+}
+
+.replytitle {
+	color: #F92672;
+	font-weight: 800;
+}
+
+.hoverpost {
+	background: #36372f;
+	color: #F8F8F2;
+}
+
+.commentpostername {
+	color: #F8F8F2;
+	font-weight: 800;
+}
+
+.thumbnailmsg {
+	font-size: small;
+	color: #800000;
+}
+
+.abbrev {
+	color: #75715E;
+}
+
+.highlight {
+	background: #F0E0D6;
+	color: #800000;
+	border: 2px dashed #EEAA88;
+}
+
+input[type="text"], input[type="password"], textarea {
+	color: #F8F8F2;
+	background-color: #36372f;
+	border: 1px solid #75715E;
+}
+
+.navbar a {
+    padding-left: 3px;
+    padding-right: 3px;
+}

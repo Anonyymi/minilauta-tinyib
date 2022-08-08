@@ -1,0 +1,13 @@
+settings.php
+*.html
+*.db
+.accounts*
+.bans*
+.keywords*
+.logs*
+.posts*
+.reports*
+.project
+.settings/
+.idea/
+*error_log 

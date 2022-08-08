@@ -1,0 +1,207 @@
+/*
+    background: #1d1f21
+    foreground: #282a2e
+    text: #c5c8c6
+    link: #5f89ac
+    text-dark: #707070
+    title: #b294bb
+*/
+
+html, body {
+	background: #1d1f21;
+	color: #c5c8c6;
+	font-family: 'Arial' !important;
+    font-size: 13px;
+}
+
+a {
+	color: #5f89ac;
+}
+
+a:hover {
+	color: #81a2be;
+}
+
+hr {
+	color: #282a2e;
+	background-color: #282a2e;
+}
+
+.reflink a:hover {
+	color: #81a2be;
+}
+
+.logo {
+	clear: both;
+	text-align: center;
+	font-size: 2.5em;
+    font-weight: bold;
+	color: #c5c8c6;
+	width: 100%;
+}
+
+.replymode {
+	background: #282a2e;
+	text-align: center;
+	padding: 2px;
+	color: #c5c8c6;
+	width: 100%;
+}
+
+.manageinfo {
+	background: #282a2e;
+	text-align: center;
+	padding: 2px;
+	color: #c5c8c6;
+	width: 100%;
+}
+
+.catalogmode {
+	background: #282a2e;
+	text-align: center;
+	padding: 2px;
+	color: #c5c8c6;
+	width: 100%;
+}
+
+.rules {
+	/*font-size:0.7em;*/
+	width: 468px;
+	font-family: sans-serif;
+}
+
+.rules li {
+	margin-left: 1em;
+	/*text-indent: 0em;*/
+}
+
+.postblock {
+	background: #282a2e;
+	color: #c5c8c6;
+	border: 1px solid #111;
+}
+
+.footer {
+	font-family: serif;
+}
+
+.passvalid {
+	background: #282a2e;
+	text-align: center;
+	width: 100%;
+	color: #c5c8c6;
+}
+
+.dellist {
+	font-weight: bold;
+	text-align: center;
+}
+
+.delbuttons {
+	text-align: center;
+	padding-bottom: 4px;
+
+}
+
+.managehead {
+	background: #AAAA66;
+	color: #400000;
+	padding: 0;
+}
+
+.postlists {
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0;
+	color: #800000;
+}
+
+.unkfunc {
+	background: inherit;
+	color: #b5bd68;
+}
+
+.boardtitle {
+	background: inherit;
+	color: #81a2be;
+	font-weight: 800;
+}
+
+.filesize {
+	text-decoration: none;
+}
+
+.filetitle {
+	background: inherit;
+	color: #81a2be;
+	font-weight: 800;
+}
+
+.postername {
+	color: #c5c8c6;
+	font-weight: bold;
+}
+
+.postertrip {
+	color: #c5c8c6;
+}
+
+.oldpost {
+	color: #81a2be;
+	font-weight: 800;
+}
+
+.omittedposts {
+	color: #707070;
+}
+
+.reply {
+	background: #282a2e !important;
+	color: #c5c8c6 !important;
+}
+
+.replyhl {
+	background: #282a2e;
+	color: #c5c8c6;
+}
+
+.replytitle {
+	color: #81a2be;
+	font-weight: 800;
+}
+
+.hoverpost {
+	background: #282a2e;
+	color: #c5c8c6;
+}
+
+.commentpostername {
+	color: #c5c8c6;
+	font-weight: 800;
+}
+
+.thumbnailmsg {
+	font-size: small;
+	color: #800000;
+}
+
+.abbrev {
+	color: #707070;
+}
+
+.highlight {
+	background: #F0E0D6;
+	color: #800000;
+	border: 2px dashed #EEAA88;
+}
+
+input[type="text"], input[type="password"], textarea {
+	color: #c5c8c6;
+	background-color: #282a2e;
+	border: 1px solid #111;
+}
+
+.navbar a {
+    padding-left: 3px;
+    padding-right: 3px;
+}

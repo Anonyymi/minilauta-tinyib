@@ -1,0 +1,845 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-08-05 11:29-0700\n"
+"PO-Revision-Date: 2020-08-28 16:18-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: imgboard.php\n"
+"X-Poedit-SearchPath-1: inc/html.php\n"
+"X-Poedit-SearchPath-2: inc/functions.php\n"
+
+msgid "Click here to go back"
+msgstr ""
+
+msgid "TINYIB_HCAPTCHA_SITE and TINYIB_HCAPTCHA_SECRET  must be configured."
+msgstr ""
+
+msgid "TINYIB_RECAPTCHA_SITE and TINYIB_RECAPTCHA_SECRET  must be configured."
+msgstr ""
+
+msgid "TINYIB_TRIPSEED must be configured."
+msgstr ""
+
+msgid "Unknown database mode specified."
+msgstr ""
+
+#, php-format
+msgid "Directory '%s' can not be written to.  Please modify its permissions."
+msgstr ""
+
+msgid "Posting is currently disabled.<br>Please try again in a few moments."
+msgstr ""
+
+msgid "Invalid parent thread ID supplied, unable to create post."
+msgstr ""
+
+msgid "Replies are not allowed to locked threads."
+msgstr ""
+
+msgid "Your post contains a blocked keyword."
+msgstr ""
+
+msgid "Keyword"
+msgstr ""
+
+#, php-format
+msgid "Your IP address (%1$s) is banned until %2$s."
+msgstr ""
+
+#, php-format
+msgid "Your IP address (%s) is permanently banned."
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Embedding a URL and uploading a file at the same time is not supported."
+msgstr ""
+
+#, php-format
+msgid "Invalid embed URL. Only %s URLs are supported."
+msgstr ""
+
+#, php-format
+msgid "That file is larger than %s."
+msgstr ""
+
+msgid "Failed to download file at specified URL."
+msgstr ""
+
+msgid "Error while processing audio/video."
+msgstr ""
+
+msgid "Could not create thumbnail."
+msgstr ""
+
+msgid "upload a file or embed a URL"
+msgstr ""
+
+msgid "upload a file"
+msgstr ""
+
+msgid "embed a URL"
+msgstr ""
+
+#, php-format
+msgid "Please %s to start a new thread."
+msgstr ""
+
+#, php-format
+msgid "Please enter a message and/or %s."
+msgstr ""
+
+msgid "Please enter a message."
+msgstr ""
+
+#, php-format
+msgid "Please %s."
+msgstr ""
+
+#, php-format
+msgid "Your %s will be shown <b>once it has been approved</b>."
+msgstr ""
+
+msgid "Updating thread..."
+msgstr ""
+
+msgid "Updating index..."
+msgstr ""
+
+msgid "Created staff post"
+msgstr ""
+
+msgid "This post has been deleted"
+msgstr ""
+
+msgid "This post requires moderation before it can be displayed"
+msgstr ""
+
+msgid "Automatic refreshing is disabled."
+msgstr ""
+
+msgid "Reporting is disabled."
+msgstr ""
+
+msgid ""
+"Sorry, an invalid post identifier was sent. Please go back, refresh the "
+"page, and try again."
+msgstr ""
+
+msgid "Moderators have determined that post does not break any rules."
+msgstr ""
+
+msgid "You have already submitted a report for that post."
+msgstr ""
+
+msgid "(enter the text below)"
+msgstr ""
+
+msgid "Please complete a CAPTCHA to submit your report"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Post reported."
+msgstr ""
+
+msgid "Tick the box next to a post and click \"Delete\" to delete it."
+msgstr ""
+
+msgid ""
+"Post deletion is currently disabled.<br>Please try again in a few moments."
+msgstr ""
+
+msgid "Post deleted."
+msgstr ""
+
+msgid "Invalid password."
+msgstr ""
+
+msgid "Rebuilt board."
+msgstr ""
+
+msgid "Access denied"
+msgstr ""
+
+msgid "Account not found."
+msgstr ""
+
+msgid "This account may not be updated while TINYIB_ADMINPASS is set."
+msgstr ""
+
+msgid "This account may not be updated while TINYIB_MODPASS is set."
+msgstr ""
+
+msgid "A password is required."
+msgstr ""
+
+msgid "Invalid role."
+msgstr ""
+
+#, php-format
+msgid "Added account %s"
+msgstr ""
+
+msgid "Added account"
+msgstr ""
+
+#, php-format
+msgid "Renamed account %1$s as %2$s"
+msgstr ""
+
+#, php-format
+msgid "Changed password of account %s"
+msgstr ""
+
+msgid "Super-administrator"
+msgstr ""
+
+msgid "Administrator"
+msgstr ""
+
+msgid "Moderator"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+#, php-format
+msgid "Changed role of account %s to %s"
+msgstr ""
+
+msgid "Updated account"
+msgstr ""
+
+msgid "permanently"
+msgstr ""
+
+#, php-format
+msgid "until %s"
+msgstr ""
+
+#, php-format
+msgid "Banned %s %s"
+msgstr ""
+
+#, php-format
+msgid "Banned %s %s: %s"
+msgstr ""
+
+#, php-format
+msgid "Added ban message to %s"
+msgstr ""
+
+msgid "Banned 1 IP address"
+msgstr ""
+
+#, php-format
+msgid "Banned %d IP addresses"
+msgstr ""
+
+#, php-format
+msgid "Lifted ban on %s"
+msgstr ""
+
+msgid "Sorry, that keyword has already been added."
+msgstr ""
+
+#, php-format
+msgid "Updated keyword %s"
+msgstr ""
+
+msgid "Keyword updated."
+msgstr ""
+
+msgid "Keyword added."
+msgstr ""
+
+msgid "That keyword does not exist."
+msgstr ""
+
+#, php-format
+msgid "Deleted keyword %s"
+msgstr ""
+
+msgid "Keyword deleted."
+msgstr ""
+
+#, php-format
+msgid "Deleted %s"
+msgstr ""
+
+msgid "Deleted 1 post"
+msgstr ""
+
+#, php-format
+msgid "Deleted %d posts"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+#, php-format
+msgid "Post No.%d approved."
+msgstr ""
+
+msgid "Sorry, there doesn't appear to be a post with that ID."
+msgstr ""
+
+msgid "Stickied"
+msgstr ""
+
+msgid "Unstickied"
+msgstr ""
+
+msgid "Form data was lost. Please go back and try again."
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Password updated"
+msgstr ""
+
+msgid "Please enter the CAPTCHA text."
+msgstr ""
+
+msgid ""
+"Incorrect CAPTCHA text entered.  Please try again.<br>Click the image to "
+"retrieve a new CAPTCHA."
+msgstr ""
+
+#, php-format
+msgid ""
+"Please shorten your message, or post it in multiple parts. Your message is "
+"%1$d characters long, and the maximum allowed is %2$d."
+msgstr ""
+
+msgid "Invalid key."
+msgstr ""
+
+msgid "Invalid username or password."
+msgstr ""
+
+#, php-format
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive (%s) in php.ini."
+msgstr ""
+
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+msgid "No file was uploaded."
+msgstr ""
+
+msgid "Missing a temporary folder."
+msgstr ""
+
+msgid "Failed to write file to disk"
+msgstr ""
+
+msgid "Unable to save the uploaded file."
+msgstr ""
+
+#, php-format
+msgid ""
+"Duplicate file uploaded. That file has already been posted <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+msgid ""
+"Unable to read the uploaded file while creating its thumbnail. A common "
+"cause for this is an incorrect extension when the file is actually of a "
+"different type."
+msgstr ""
+
+msgid "File transfer failure. Please retry the submission."
+msgstr ""
+
+msgid ""
+"Failed to read the MIME type and size of the uploaded file. Please retry the "
+"submission."
+msgstr ""
+
+msgid "Could not copy uploaded file."
+msgstr ""
+
+msgid "File transfer failure. Please go back and try again."
+msgstr ""
+
+msgid "Sorry, your video appears to be corrupt."
+msgstr ""
+
+#, php-format
+msgid "Supported file type is %s"
+msgstr ""
+
+#, php-format
+msgid "Supported file types are %1$s and %2$s."
+msgstr ""
+
+msgid "Raw HTML"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid ""
+"Text entered in the Message field will be posted as is with no formatting "
+"applied."
+msgstr ""
+
+msgid "Line-breaks must be specified with \"&lt;br&gt;\"."
+msgstr ""
+
+msgid "Reply to"
+msgstr ""
+
+msgid "0 to start a new thread"
+msgstr ""
+
+msgid "CAPTCHA"
+msgstr ""
+
+#, php-format
+msgid "Maximum file size allowed is %s."
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Embed"
+msgstr ""
+
+msgid "(paste a YouTube URL)"
+msgstr ""
+
+msgid "All posts are moderated before being shown."
+msgstr ""
+
+msgid "All posts with a file attached are moderated before being shown."
+msgstr ""
+
+#, php-format
+msgid "Images greater than %s will be thumbnailed."
+msgstr ""
+
+#, php-format
+msgid "Currently %s unique user posts."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "(for post and file deletion)"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Post truncated. Click Reply to view."
+msgstr ""
+
+msgid "1 post omitted. Click Reply to view."
+msgstr ""
+
+#, php-format
+msgid "%d posts omitted. Click Reply to view."
+msgstr ""
+
+msgid "Catalog"
+msgstr ""
+
+msgid "Manage"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Return"
+msgstr ""
+
+msgid "Posting mode: Reply"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Post"
+msgstr ""
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Bans"
+msgstr ""
+
+msgid "Keywords"
+msgstr ""
+
+msgid "Migrate Database"
+msgstr ""
+
+msgid "Moderate Post"
+msgstr ""
+
+msgid "Moderation Log"
+msgstr ""
+
+msgid "Rebuild All"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Staff Post"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Log Out"
+msgstr ""
+
+msgid "Manage mode"
+msgstr ""
+
+msgid "Log In"
+msgstr ""
+
+msgid "Enter a username and password"
+msgstr ""
+
+msgid "No logs."
+msgstr ""
+
+msgid "Moderation log"
+msgstr ""
+
+msgid "Reported posts"
+msgstr ""
+
+#, php-format
+msgid "%1$d report by %2$s"
+msgstr ""
+
+#, php-format
+msgid "%1$d reports by %2$s"
+msgstr ""
+
+#, php-format
+msgid "%d reports"
+msgstr ""
+
+#, php-format
+msgid "Reported by %s"
+msgstr ""
+
+msgid "Moderate"
+msgstr ""
+
+msgid "There are currently no reported posts."
+msgstr ""
+
+msgid "Add an account"
+msgstr ""
+
+msgid "Update an account"
+msgstr ""
+
+msgid "Leave blank to maintain current password"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Choose a role"
+msgstr ""
+
+msgid "Last active"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "update"
+msgstr ""
+
+msgid "Add a ban"
+msgstr ""
+
+msgid ""
+"Multiple IP addresses may be banned at once by separating each address with "
+"a comma."
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "Expire(sec)"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "Optional."
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+msgid "2 days"
+msgstr ""
+
+msgid "1 week"
+msgstr ""
+
+msgid "2 weeks"
+msgstr ""
+
+msgid "1 month"
+msgstr ""
+
+msgid "Append a message to the post. Optional."
+msgstr ""
+
+msgid "Set At"
+msgstr ""
+
+msgid "Expires"
+msgstr ""
+
+msgid "Does not expire"
+msgstr ""
+
+msgid "lift"
+msgstr ""
+
+msgid "Moderate a post"
+msgstr ""
+
+msgid "Post ID"
+msgstr ""
+
+msgid "Tip"
+msgstr ""
+
+msgid ""
+"While browsing the image board, you can easily moderate a post if you are "
+"logged in."
+msgstr ""
+
+msgid ""
+"Tick the box next to a post and click \"Delete\" at the bottom of the page "
+"with a blank password."
+msgstr ""
+
+#, php-format
+msgid "Moderate %d posts"
+msgstr ""
+
+msgid "Delete all"
+msgstr ""
+
+msgid "Ban all"
+msgstr ""
+
+msgid "1 thread and 1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "1 thread and %d replies will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%d threads and 1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%1$d threads and %2$d replies will be deleted."
+msgstr ""
+
+msgid "1 IP address will be banned."
+msgstr ""
+
+#, php-format
+msgid "%d IP addresses will be banned."
+msgstr ""
+
+#, php-format
+msgid " A ban record already exists for %s"
+msgstr ""
+
+msgid "Only an administrator may ban an IP address."
+msgstr ""
+
+#, php-format
+msgid "IP address: %s"
+msgstr ""
+
+msgid "Thread"
+msgstr ""
+
+msgid "1 reply will be deleted."
+msgstr ""
+
+#, php-format
+msgid "%d replies will be deleted."
+msgstr ""
+
+msgid "Belongs to "
+msgstr ""
+
+msgid "Un-sticky"
+msgstr ""
+
+msgid "Sticky"
+msgstr ""
+
+msgid "Return this thread to a normal state."
+msgstr ""
+
+msgid "Keep this thread at the top of the board."
+msgstr ""
+
+msgid "Unlock"
+msgstr ""
+
+msgid "Lock"
+msgstr ""
+
+msgid "Allow replying to this thread."
+msgstr ""
+
+msgid "Disallow replying to this thread."
+msgstr ""
+
+#, php-format
+msgid "Moderating No.%d"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Delete thread"
+msgstr ""
+
+msgid "Delete reply"
+msgstr ""
+
+msgid "Ban poster"
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "reports"
+msgstr ""
+
+msgid "Sorry, there doesn't appear to be a keyword with that ID."
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Hide until approved"
+msgstr ""
+
+msgid "Delete and ban for 1 hour"
+msgstr ""
+
+msgid "Delete and ban for 1 day"
+msgstr ""
+
+msgid "Delete and ban for 2 days"
+msgstr ""
+
+msgid "Delete and ban for 1 week"
+msgstr ""
+
+msgid "Delete and ban for 2 weeks"
+msgstr ""
+
+msgid "Delete and ban for 1 month"
+msgstr ""
+
+msgid "Delete and ban permanently"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "thread"
+msgstr ""
+
+msgid "threads"
+msgstr ""
+
+msgid "ban"
+msgstr ""
+
+msgid "bans"
+msgstr ""
+
+msgid "More Info"
+msgstr ""
+
+msgid "Pending posts"
+msgstr ""
+
+msgid "Recent posts"
+msgstr ""
+
+msgid "Info"
+msgstr ""

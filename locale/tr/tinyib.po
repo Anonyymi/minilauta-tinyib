@@ -1,0 +1,942 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: trevor@rocketnine.space\n"
+"POT-Creation-Date: 2021-08-05 11:29-0700\n"
+"PO-Revision-Date: 2021-08-07 05:33+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/tinyib/tinyib/tr/"
+">\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: imgboard.php\n"
+"X-Poedit-SearchPath-1: inc/functions.php\n"
+"X-Poedit-SearchPath-2: inc/html.php\n"
+
+msgid "Click here to go back"
+msgstr "Geri dönmek için buraya tıklayın"
+
+msgid "TINYIB_HCAPTCHA_SITE and TINYIB_HCAPTCHA_SECRET  must be configured."
+msgstr "TINYIB_HCAPTCHA_SITE ve TINYIB_HCAPTCHA_SECRET  yapılandırılmalıdır."
+
+msgid "TINYIB_RECAPTCHA_SITE and TINYIB_RECAPTCHA_SECRET  must be configured."
+msgstr "TINYIB_RECAPTCHA_SITE ve TINYIB_RECAPTCHA_SECRET  yapılandırılmalıdır."
+
+msgid "TINYIB_TRIPSEED must be configured."
+msgstr "TINYIB_TRIPSEED yapılandırılmalıdır."
+
+msgid "Unknown database mode specified."
+msgstr "Bilinmeyen veri tabanı modu belirtildi."
+
+#, php-format
+msgid "Directory '%s' can not be written to.  Please modify its permissions."
+msgstr "'%s' dizinine yazılamıyor.  Lütfen izinlerini değiştirin."
+
+msgid "Posting is currently disabled.<br>Please try again in a few moments."
+msgstr ""
+"Gönderme şu anda devre dışı.<br>Lütfen birkaç dakika sonra tekrar deneyin."
+
+msgid "Invalid parent thread ID supplied, unable to create post."
+msgstr "Geçersiz ana mesaj dizisi kimliği belirtildi, gönderi oluşturulamadı."
+
+msgid "Replies are not allowed to locked threads."
+msgstr "Kilitli mesaj dizilerini yanıtlamaya izin verilmiyor."
+
+msgid "Your post contains a blocked keyword."
+msgstr "Gönderiniz engellenen bir anahtar sözcük içeriyor."
+
+msgid "Keyword"
+msgstr "Anahtar sözcük"
+
+#, php-format
+msgid "Your IP address (%1$s) is banned until %2$s."
+msgstr "IP adresiniz (%1$s), %2$s tarihine kadar yasaklandı."
+
+#, php-format
+msgid "Your IP address (%s) is permanently banned."
+msgstr "IP adresiniz (%s) kalıcı olarak yasaklandı."
+
+msgid "Reason"
+msgstr "Neden"
+
+msgid "Embedding a URL and uploading a file at the same time is not supported."
+msgstr "Aynı anda bir URL yerleştirmek ve bir dosya yüklemek desteklenmiyor."
+
+#, php-format
+msgid "Invalid embed URL. Only %s URLs are supported."
+msgstr "Geçersiz yerleştirme URL'si. Yalnızca %s URL'leri destekleniyor."
+
+#, php-format
+msgid "That file is larger than %s."
+msgstr "Bu dosya %s'den büyük."
+
+msgid "Failed to download file at specified URL."
+msgstr "Belirtilen URL'deki dosyayı indirme başarısız oldu."
+
+msgid "Error while processing audio/video."
+msgstr "Ses/video işlenirken hata oluştu."
+
+msgid "Could not create thumbnail."
+msgstr "Küçük resim oluşturulamadı."
+
+msgid "upload a file or embed a URL"
+msgstr "bir dosya yükleyin veya URL yerleştirin"
+
+msgid "upload a file"
+msgstr "bir dosya yükleyin"
+
+msgid "embed a URL"
+msgstr "bir URL yerleştirin"
+
+#, php-format
+msgid "Please %s to start a new thread."
+msgstr "Yeni bir mesaj dizisi başlatmak için lütfen %s."
+
+#, php-format
+msgid "Please enter a message and/or %s."
+msgstr "Lütfen bir mesaj girin ve/veya %s."
+
+msgid "Please enter a message."
+msgstr "Lütfen bir mesaj girin."
+
+#, php-format
+msgid "Please %s."
+msgstr "Lütfen %s."
+
+#, php-format
+msgid "Your %s will be shown <b>once it has been approved</b>."
+msgstr "%sniz <b>onaylandıktan sonra</b> gösterilecektir."
+
+msgid "Updating thread..."
+msgstr "Mesaj dizisi güncelleniyor..."
+
+msgid "Updating index..."
+msgstr "İndeks güncelleniyor..."
+
+msgid "Created staff post"
+msgstr "Personel gönderisi oluşturuldu"
+
+msgid "This post has been deleted"
+msgstr "Bu gönderi silindi"
+
+msgid "This post requires moderation before it can be displayed"
+msgstr "Bu gönderinin görüntülenebilmesi için denetlenmesi gerekiyor"
+
+msgid "Automatic refreshing is disabled."
+msgstr "Otomatik yenileme devre dışı bırakıldı."
+
+msgid "Reporting is disabled."
+msgstr "Bildirme devre dışı bırakıldı."
+
+msgid ""
+"Sorry, an invalid post identifier was sent. Please go back, refresh the "
+"page, and try again."
+msgstr ""
+"Üzgünüm, geçersiz bir gönderi tanımlayıcısı gönderildi. Lütfen geri dönün, "
+"sayfayı yenileyin ve tekrar deneyin."
+
+msgid "Moderators have determined that post does not break any rules."
+msgstr ""
+"Moderatörler, gönderinin herhangi bir kuralı ihlal etmediğini belirledi."
+
+msgid "You have already submitted a report for that post."
+msgstr "Bu gönderiyi zaten bildirdiniz."
+
+msgid "(enter the text below)"
+msgstr "(aşağıdaki metni girin)"
+
+msgid "Please complete a CAPTCHA to submit your report"
+msgstr "Lütfen bildirinizi göndermek için bir CAPTCHA doldurun"
+
+msgid "Submit"
+msgstr "Gönder"
+
+msgid "Post reported."
+msgstr "Gönderi bildirildi."
+
+msgid "Tick the box next to a post and click \"Delete\" to delete it."
+msgstr ""
+"Bir gönderiyi silmek için yanındaki kutuyu işaretleyin ve \"Sil\" düğmesine "
+"tıklayın."
+
+msgid ""
+"Post deletion is currently disabled.<br>Please try again in a few moments."
+msgstr ""
+"Gönderi silme şu anda devre dışı.<br>Lütfen biraz sonra tekrar deneyin."
+
+msgid "Post deleted."
+msgstr "Gönderi silindi."
+
+msgid "Invalid password."
+msgstr "Geçersiz parola."
+
+msgid "Rebuilt board."
+msgstr "Pano yeniden oluşturuldu."
+
+msgid "Access denied"
+msgstr "Erişim engellendi"
+
+msgid "Account not found."
+msgstr "Hesap bulunamadı."
+
+msgid "This account may not be updated while TINYIB_ADMINPASS is set."
+msgstr "TINYIB_ADMINPASS ayarlandığında bu hesap güncellenemez."
+
+msgid "This account may not be updated while TINYIB_MODPASS is set."
+msgstr "TINYIB_MODPASS ayarlandığında bu hesap güncellenemez."
+
+msgid "A password is required."
+msgstr "Parola gerekli."
+
+msgid "Invalid role."
+msgstr "Geçersiz rol."
+
+#, php-format
+msgid "Added account %s"
+msgstr "%s hesabı eklendi"
+
+msgid "Added account"
+msgstr "Hesap eklendi"
+
+#, php-format
+msgid "Renamed account %1$s as %2$s"
+msgstr "%1$s hesabı %2$s olarak yeniden adlandırıldı"
+
+#, php-format
+msgid "Changed password of account %s"
+msgstr "%s hesabının parolası değiştirildi"
+
+msgid "Super-administrator"
+msgstr "Süper yönetici"
+
+msgid "Administrator"
+msgstr "Yönetici"
+
+msgid "Moderator"
+msgstr "Moderatör"
+
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#, php-format
+msgid "Changed role of account %s to %s"
+msgstr "%s hesabının rolü %s olarak değiştirildi"
+
+msgid "Updated account"
+msgstr "Hesap güncellendi"
+
+msgid "permanently"
+msgstr "kalıcı olarak"
+
+#, php-format
+msgid "until %s"
+msgstr "%s tarihine kadar"
+
+#, php-format
+msgid "Banned %s %s"
+msgstr "Yasaklandı %s %s"
+
+#, php-format
+msgid "Banned %s %s: %s"
+msgstr "Yasaklandı %s %s: %s"
+
+#, php-format
+msgid "Added ban message to %s"
+msgstr "%s'e yasaklama mesajı eklendi"
+
+msgid "Banned 1 IP address"
+msgstr "1 IP adresi yasaklandı"
+
+#, php-format
+msgid "Banned %d IP addresses"
+msgstr "%d IP adresi yasaklandı"
+
+#, php-format
+msgid "Lifted ban on %s"
+msgstr "%s üzerindeki yasak kaldırıldı"
+
+msgid "Sorry, that keyword has already been added."
+msgstr "Üzgünüm, bu anahtar sözcük zaten eklendi."
+
+#, php-format
+msgid "Updated keyword %s"
+msgstr "%s anahtar sözcüğü güncellendi"
+
+msgid "Keyword updated."
+msgstr "Anahtar sözcük güncellendi."
+
+msgid "Keyword added."
+msgstr "Anahtar sözcük eklendi."
+
+msgid "That keyword does not exist."
+msgstr "Bu anahtar sözcük yok."
+
+#, php-format
+msgid "Deleted keyword %s"
+msgstr "%s anahtar sözcüğü silindi"
+
+msgid "Keyword deleted."
+msgstr "Anahtar sözcük silindi."
+
+#, php-format
+msgid "Deleted %s"
+msgstr "%s silindi"
+
+msgid "Deleted 1 post"
+msgstr "1 gönderi silindi"
+
+#, php-format
+msgid "Deleted %d posts"
+msgstr "%d gönderi silindi"
+
+msgid "Approved"
+msgstr "Onaylandı"
+
+#, php-format
+msgid "Post No.%d approved."
+msgstr "%d numaralı gönderi onaylandı."
+
+msgid "Sorry, there doesn't appear to be a post with that ID."
+msgstr "Üzgünüm, bu kimliğe sahip bir gönderi görünmüyor."
+
+msgid "Stickied"
+msgstr "Sabitlendi"
+
+msgid "Unstickied"
+msgstr "Sabitleme kaldırıldı"
+
+msgid "Form data was lost. Please go back and try again."
+msgstr "Form verileri kayboldu. Lütfen geri dönün ve tekrar deneyin."
+
+msgid "Locked"
+msgstr "Kilitlendi"
+
+msgid "Unlocked"
+msgstr "Kilidi kaldırıldı"
+
+msgid "Passwords do not match."
+msgstr "Parolalar eşleşmiyor."
+
+msgid "Password updated"
+msgstr "Parola güncellendi"
+
+msgid "Please enter the CAPTCHA text."
+msgstr "Lütfen CAPTCHA metnini girin."
+
+msgid ""
+"Incorrect CAPTCHA text entered.  Please try again.<br>Click the image to "
+"retrieve a new CAPTCHA."
+msgstr ""
+"Yanlış CAPTCHA metni girildi.  Lütfen tekrar deneyin.<br>Yeni bir CAPTCHA "
+"almak için resme tıklayın."
+
+#, php-format
+msgid ""
+"Please shorten your message, or post it in multiple parts. Your message is "
+"%1$d characters long, and the maximum allowed is %2$d."
+msgstr ""
+"Lütfen mesajınızı kısaltın veya birden fazla bölüm halinde gönderin. "
+"Mesajınız %1$d karakter uzunluğunda ve en fazla %2$d karaktere izin "
+"veriliyor."
+
+msgid "Invalid key."
+msgstr "Geçersiz anahtar."
+
+msgid "Invalid username or password."
+msgstr "Geçersiz kullanıcı adı veya parola."
+
+#, php-format
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive (%s) in php.ini."
+msgstr ""
+"Yüklenen dosya php.ini içindeki upload_max_filesize değerini (%s) aşıyor."
+
+msgid "The uploaded file was only partially uploaded."
+msgstr "Yüklenen dosya yalnızca kısmen yüklendi."
+
+msgid "No file was uploaded."
+msgstr "Dosya yüklenmedi."
+
+msgid "Missing a temporary folder."
+msgstr "Geçici klasör eksik."
+
+msgid "Failed to write file to disk"
+msgstr "Dosyayı diske yazma başarısız oldu"
+
+msgid "Unable to save the uploaded file."
+msgstr "Yüklenen dosya kaydedilemedi."
+
+#, php-format
+msgid ""
+"Duplicate file uploaded. That file has already been posted <a href=\"%s"
+"\">here</a>."
+msgstr ""
+"Yinelenen dosya yüklendi. Bu dosya zaten <a href=\"%s\">burada</a> "
+"gönderildi."
+
+msgid ""
+"Unable to read the uploaded file while creating its thumbnail. A common "
+"cause for this is an incorrect extension when the file is actually of a "
+"different type."
+msgstr ""
+"Küçük resmi oluşturulurken yüklenen dosya okunamadı. Bunun yaygın bir "
+"nedeni, dosyanın uzantısının gerçek türünden farklı olmasıdır."
+
+msgid "File transfer failure. Please retry the submission."
+msgstr "Dosya aktarımı hatası. Lütfen yeniden göndermeyi deneyin."
+
+msgid ""
+"Failed to read the MIME type and size of the uploaded file. Please retry the "
+"submission."
+msgstr ""
+"Yüklenen dosyanın MIME türü ve boyutu okunamadı. Lütfen yeniden göndermeyi "
+"deneyin."
+
+msgid "Could not copy uploaded file."
+msgstr "Yüklenen dosya kopyalanamadı."
+
+msgid "File transfer failure. Please go back and try again."
+msgstr "Dosya aktarımı hatası. Lütfen geri dönün ve tekrar deneyin."
+
+msgid "Sorry, your video appears to be corrupt."
+msgstr "Üzgünüm, videonuz bozuk gibi görünüyor."
+
+#, php-format
+msgid "Supported file type is %s"
+msgstr "Desteklenen dosya türü %s"
+
+#, php-format
+msgid "Supported file types are %1$s and %2$s."
+msgstr "Desteklenen dosya türleri %1$s ve %2$s."
+
+msgid "Raw HTML"
+msgstr "Ham HTML"
+
+msgid "Enable"
+msgstr "Etkinleştir"
+
+msgid ""
+"Text entered in the Message field will be posted as is with no formatting "
+"applied."
+msgstr ""
+"Mesaj alanına girilen metin, herhangi bir biçimlendirme uygulanmadan olduğu "
+"gibi gönderilecektir."
+
+msgid "Line-breaks must be specified with \"&lt;br&gt;\"."
+msgstr "Satır sonları \"&lt;br&gt;\" ile belirtilmelidir."
+
+msgid "Reply to"
+msgstr "Yanıtla"
+
+msgid "0 to start a new thread"
+msgstr "Yeni bir mesaj dizisi başlatmak için 0"
+
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#, php-format
+msgid "Maximum file size allowed is %s."
+msgstr "İzin verilen en fazla dosya boyutu %s."
+
+msgid "File"
+msgstr "Dosya"
+
+msgid "Embed"
+msgstr "Yerleştir"
+
+msgid "(paste a YouTube URL)"
+msgstr "(bir YouTube URL'si yapıştırın)"
+
+msgid "All posts are moderated before being shown."
+msgstr "Tüm gönderiler gösterilmeden önce denetlenir."
+
+msgid "All posts with a file attached are moderated before being shown."
+msgstr "Dosya eklenmiş tüm gönderiler gösterilmeden önce denetlenir."
+
+#, php-format
+msgid "Images greater than %s will be thumbnailed."
+msgstr "%s'den büyük resimler küçük resim olarak görüntülenecektir."
+
+#, php-format
+msgid "Currently %s unique user posts."
+msgstr "Şu anda %s benzersiz kullanıcı gönderisi."
+
+msgid "Name"
+msgstr "Ad"
+
+msgid "E-mail"
+msgstr "E-posta"
+
+msgid "Subject"
+msgstr "Konu"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Password"
+msgstr "Parola"
+
+msgid "(for post and file deletion)"
+msgstr "(gönderi ve dosya silme için)"
+
+msgid "Report"
+msgstr "Bildir"
+
+msgid "Reply"
+msgstr "Yanıtla"
+
+msgid "Post truncated. Click Reply to view."
+msgstr "Gönderi kısaltıldı. Görüntülemek için Yanıtla düğmesine tıklayın."
+
+msgid "1 post omitted. Click Reply to view."
+msgstr ""
+"1 gönderi dahil edilmedi. Görüntülemek için Yanıtla düğmesine tıklayın."
+
+#, php-format
+msgid "%d posts omitted. Click Reply to view."
+msgstr ""
+"%d gönderi dahil edilmedi. Görüntülemek için Yanıtla düğmesine tıklayın."
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Manage"
+msgstr "Yönet"
+
+msgid "Previous"
+msgstr "Önceki"
+
+msgid "Next"
+msgstr "Sonraki"
+
+msgid "Return"
+msgstr "Geri dön"
+
+msgid "Posting mode: Reply"
+msgstr "Gönderme modu: Yanıtla"
+
+msgid "Style"
+msgstr "Tarz"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Delete Post"
+msgstr "Gönderiyi Sil"
+
+msgid "Accounts"
+msgstr "Hesaplar"
+
+msgid "Bans"
+msgstr "Yasaklamalar"
+
+msgid "Keywords"
+msgstr "Anahtar Sözcükler"
+
+msgid "Migrate Database"
+msgstr "Veri Tabanını Taşı"
+
+msgid "Moderate Post"
+msgstr "Gönderiyi Denetle"
+
+msgid "Moderation Log"
+msgstr "Denetleme Günlüğü"
+
+msgid "Rebuild All"
+msgstr "Tümünü Yeniden Oluştur"
+
+msgid "Reports"
+msgstr "Bildiriler"
+
+msgid "Staff Post"
+msgstr "Personel Gönderisi"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Update"
+msgstr "Güncelle"
+
+msgid "Change Password"
+msgstr "Parola Değiştir"
+
+msgid "Log Out"
+msgstr "Oturumu Kapat"
+
+msgid "Manage mode"
+msgstr "Yönetim modu"
+
+msgid "Log In"
+msgstr "Oturum Aç"
+
+msgid "Enter a username and password"
+msgstr "Kullanıcı adı ve parola girin"
+
+msgid "No logs."
+msgstr "Günlük yok."
+
+msgid "Moderation log"
+msgstr "Denetleme günlüğü"
+
+msgid "Reported posts"
+msgstr "Bildirilen gönderiler"
+
+#, php-format
+msgid "%1$d report by %2$s"
+msgstr "%2$s tarafından %1$d bildiri"
+
+#, php-format
+msgid "%1$d reports by %2$s"
+msgstr "%2$s tarafından %1$d bildiri"
+
+#, php-format
+msgid "%d reports"
+msgstr "%d bildiri"
+
+#, php-format
+msgid "Reported by %s"
+msgstr "%s tarafından bildirildi"
+
+msgid "Moderate"
+msgstr "Denetle"
+
+msgid "There are currently no reported posts."
+msgstr "Şu anda bildirilen gönderi yok."
+
+msgid "Add an account"
+msgstr "Hesap ekle"
+
+msgid "Update an account"
+msgstr "Hesap güncelle"
+
+msgid "Leave blank to maintain current password"
+msgstr "Geçerli parolayı korumak için boş bırakın"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Choose a role"
+msgstr "Bir rol seçin"
+
+msgid "Last active"
+msgstr "Son etkinlik"
+
+msgid "Never"
+msgstr "Hiçbir zaman"
+
+msgid "update"
+msgstr "güncelle"
+
+msgid "Add a ban"
+msgstr "Yasak ekle"
+
+msgid ""
+"Multiple IP addresses may be banned at once by separating each address with "
+"a comma."
+msgstr ""
+"Her adresi virgülle ayırarak birden çok IP adresi aynı anda yasaklanabilir."
+
+msgid "IP Address"
+msgstr "IP Adresi"
+
+msgid "Expire(sec)"
+msgstr "Sona erme (sn)"
+
+msgid "never"
+msgstr "asla"
+
+msgid "Optional."
+msgstr "İsteğe bağlı."
+
+msgid "1 hour"
+msgstr "1 saat"
+
+msgid "1 day"
+msgstr "1 gün"
+
+msgid "2 days"
+msgstr "2 gün"
+
+msgid "1 week"
+msgstr "1 hafta"
+
+msgid "2 weeks"
+msgstr "2 hafta"
+
+msgid "1 month"
+msgstr "1 ay"
+
+msgid "Append a message to the post. Optional."
+msgstr "Gönderiye bir mesaj ekleyin. İsteğe bağlı."
+
+msgid "Set At"
+msgstr "Ekleme Tarihi"
+
+msgid "Expires"
+msgstr "Sona Erme"
+
+msgid "Does not expire"
+msgstr "Sona ermez"
+
+msgid "lift"
+msgstr "kaldır"
+
+msgid "Moderate a post"
+msgstr "Gönderi denetle"
+
+msgid "Post ID"
+msgstr "Gönderi kimliği"
+
+msgid "Tip"
+msgstr "İpucu"
+
+msgid ""
+"While browsing the image board, you can easily moderate a post if you are "
+"logged in."
+msgstr ""
+"Resim panosunda gezinirken, oturum açmışsanız bir gönderiyi kolayca "
+"denetleyebilirsiniz."
+
+msgid ""
+"Tick the box next to a post and click \"Delete\" at the bottom of the page "
+"with a blank password."
+msgstr ""
+"Bir gönderinin yanındaki kutuyu işaretleyin ve sayfanın altındaki \"Sil\" "
+"düğmesine boş bir parola ile tıklayın."
+
+#, php-format
+msgid "Moderate %d posts"
+msgstr "%d gönderiyi denetle"
+
+msgid "Delete all"
+msgstr "Tümünü sil"
+
+msgid "Ban all"
+msgstr "Tümünü yasakla"
+
+msgid "1 thread and 1 reply will be deleted."
+msgstr "1 mesaj dizisi ve 1 yanıt silinecek."
+
+#, php-format
+msgid "1 thread and %d replies will be deleted."
+msgstr "1 mesaj dizisi ve %d yanıt silinecek."
+
+#, php-format
+msgid "%d threads and 1 reply will be deleted."
+msgstr "%d mesaj dizisi ve 1 yanıt silinecek."
+
+#, php-format
+msgid "%1$d threads and %2$d replies will be deleted."
+msgstr "%1$d mesaj dizisi ve %2$d yanıt silinecek."
+
+msgid "1 IP address will be banned."
+msgstr "1 IP adresi yasaklanacak."
+
+#, php-format
+msgid "%d IP addresses will be banned."
+msgstr "%d IP adresi yasaklanacak."
+
+#, php-format
+msgid " A ban record already exists for %s"
+msgstr " %s için zaten bir yasak kaydı var"
+
+msgid "Only an administrator may ban an IP address."
+msgstr "Yalnızca bir yönetici bir IP adresini yasaklayabilir."
+
+#, php-format
+msgid "IP address: %s"
+msgstr "IP adresi: %s"
+
+msgid "Thread"
+msgstr "Mesaj dizisi"
+
+msgid "1 reply will be deleted."
+msgstr "1 yanıt silinecek."
+
+#, php-format
+msgid "%d replies will be deleted."
+msgstr "%d yanıt silinecek."
+
+msgid "Belongs to "
+msgstr "Ait olduğu yer "
+
+msgid "Un-sticky"
+msgstr "Sabitlemeyi kaldır"
+
+msgid "Sticky"
+msgstr "Sabitle"
+
+msgid "Return this thread to a normal state."
+msgstr "Bu mesaj dizisini normal duruma döndür."
+
+msgid "Keep this thread at the top of the board."
+msgstr "Bu mesaj dizisini panonun en üstünde tut."
+
+msgid "Unlock"
+msgstr "Kilidini kaldır"
+
+msgid "Lock"
+msgstr "Kilitle"
+
+msgid "Allow replying to this thread."
+msgstr "Bu mesaj dizisine yanıtlamaya izin ver."
+
+msgid "Disallow replying to this thread."
+msgstr "Bu mesaj dizisine yanıtlamaya izin verme."
+
+#, php-format
+msgid "Moderating No.%d"
+msgstr "%d numaralı gönderiyi denetleme"
+
+msgid "Action"
+msgstr "Eylem"
+
+msgid "Delete thread"
+msgstr "Mesaj dizisini sil"
+
+msgid "Delete reply"
+msgstr "Yanıtı sil"
+
+msgid "Ban poster"
+msgstr "Göndereni yasakla"
+
+msgid "Approve"
+msgstr "Onayla"
+
+msgid "report"
+msgstr "bildiri"
+
+msgid "reports"
+msgstr "bildiri"
+
+msgid "Sorry, there doesn't appear to be a keyword with that ID."
+msgstr "Üzgünüm, bu kimliğe sahip bir anahtar sözcük görünmüyor."
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Hide until approved"
+msgstr "Onaylanana kadar gizle"
+
+msgid "Delete and ban for 1 hour"
+msgstr "Sil ve 1 saat yasakla"
+
+msgid "Delete and ban for 1 day"
+msgstr "Sil ve 1 gün yasakla"
+
+msgid "Delete and ban for 2 days"
+msgstr "Sil ve 2 gün yasakla"
+
+msgid "Delete and ban for 1 week"
+msgstr "Sil ve 1 hafta yasakla"
+
+msgid "Delete and ban for 2 weeks"
+msgstr "Sil ve 2 hafta yasakla"
+
+msgid "Delete and ban for 1 month"
+msgstr "Sil ve 1 ay yasakla"
+
+msgid "Delete and ban permanently"
+msgstr "Sil ve kalıcı olarak yasakla"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "thread"
+msgstr "mesaj dizisi"
+
+msgid "threads"
+msgstr "mesaj dizisi"
+
+msgid "ban"
+msgstr "yasaklama"
+
+msgid "bans"
+msgstr "yasaklama"
+
+msgid "More Info"
+msgstr "Daha Fazla Bilgi"
+
+msgid "Pending posts"
+msgstr "Bekleyen gönderiler"
+
+msgid "Recent posts"
+msgstr "Son gönderiler"
+
+msgid "Info"
+msgstr "Bilgi"
+
+#~ msgid "Created raw post"
+#~ msgstr "Ham gönderi oluşturuldu"
+
+#~ msgid "Sorry, there is already a ban on record for that IP address."
+#~ msgstr "Üzgünüm, bu IP adresi için zaten bir yasak kaydı var."
+
+#~ msgid "Embed:"
+#~ msgstr "Yerleştir:"
+
+#~ msgid "File:"
+#~ msgstr "Dosya:"
+
+#~ msgid "Raw Post"
+#~ msgstr "Ham Gönderi"
+
+#~ msgid "Change password"
+#~ msgstr "Parola değiştir"
+
+#~ msgid "optional"
+#~ msgstr "isteğe bağlı"
+
+#~ msgid "Tip:"
+#~ msgstr "İpucu:"
+
+#~ msgid "Action:"
+#~ msgstr "Eylem:"
+
+#~ msgid "TINYIB_TRIPSEED and TINYIB_ADMINPASS must be configured."
+#~ msgstr "TINYIB_TRIPSEED ve TINYIB_ADMINPASS yapılandırılmalıdır."
+
+#~ msgid "%s uploaded."
+#~ msgstr "%s karşıya yüklendi."
+
+#~ msgid "Ban record added for %s"
+#~ msgstr "%s için yasak kaydı eklendi"
+
+#~ msgid "Ban record lifted for %s"
+#~ msgstr "%s için yasak kaydı kaldırıldı"
+
+#~ msgid "Post No.%d deleted."
+#~ msgstr "%d numaralı gönderi silindi."
+
+#~ msgid "Reports cleared."
+#~ msgstr "Bildiriler temizlendi."
+
+#~ msgid "This will delete the entire thread below."
+#~ msgstr "Bu, aşağıdaki mesaj dizisinin tamamını silecektir."
+
+#~ msgid "This will delete the post below."
+#~ msgstr "Bu, aşağıdaki gönderiyi silecektir."
+
+#~ msgid "Post"
+#~ msgstr "Gönderi"
+
+#~ msgid "Delete post"
+#~ msgstr "Gönderiyi sil"
+
+#~ msgid "Clear reports"
+#~ msgstr "Bildirileri temizle"
+
+#~ msgid "Enter an administrator or moderator password"
+#~ msgstr "Bir yönetici veya moderatör parolası girin"
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonim"
