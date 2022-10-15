@@ -815,7 +815,7 @@ EOF;
 				$board_list .= '<a href="/' . $board_key . '/">' . $board_key . '</a>';
 			} else {
 				$board_url = $board['url'];
-				$board_list .= '<a href="' . $board_url . '">' . $board_key . '</a>';
+				$board_list .= '<a href="' . $board_url . '"> target="_blank"' . $board_key . '</a>';
 			}
 			if ($index != $category_boards_len - 1) {
 				$board_list .= '/';
