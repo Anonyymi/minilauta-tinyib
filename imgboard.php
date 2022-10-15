@@ -1347,6 +1347,10 @@ if (TINYIB_OVERBOARD) {
 	foreach($minilauta_categories as $category) {
 		$category_boards = $category['boards'];
 		foreach($category_boards as $index => $board) {
+			// skip direct links
+			if (isset($board['url']))
+				continue;
+
 			// filter boards by query arg 'boards'
 			if ($arg_boards != NULL && $arg_boards_filter == '+' && !in_array($board['key'], $arg_boards))
 				continue;

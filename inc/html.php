@@ -811,7 +811,12 @@ EOF;
 		$board_list .= '[';
 		foreach($category_boards as $index => $board) {
 			$board_key = $board['key'];
-			$board_list .= '<a href="/' . $board_key . '/">' . $board_key . '</a>';
+			if (!isset($board['url'])) {
+				$board_list .= '<a href="/' . $board_key . '/">' . $board_key . '</a>';
+			} else {
+				$board_url = $board['url'];
+				$board_list .= '<a href="' . $board_url . '">' . $board_key . '</a>';
+			}
 			if ($index != $category_boards_len - 1) {
 				$board_list .= '/';
 			}
