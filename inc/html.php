@@ -1018,8 +1018,10 @@ function adminBar() {
 	}
 	$output .= ' [<a href="?manage&moderate">' . __('Moderate Post') . '</a>]';
 	if ($isadmin) {
-		$output .= ' [<a href="?manage&modlog">' . __('Moderation Log') . '</a>]';
-		$output .= ' [<a href="?manage&rebuildall">' . __('Rebuild All') . '</a>]';
+		if ($account['role'] == TINYIB_SUPER_ADMINISTRATOR) {
+			$output .= ' [<a href="?manage&modlog">' . __('Moderation Log') . '</a>]';
+			$output .= ' [<a href="?manage&rebuildall">' . __('Rebuild All') . '</a>]';
+		}
 		if (TINYIB_REPORT) {
 			$output .= ' [<a href="?manage&reports">' . __('Reports') . '</a>]';
 		}

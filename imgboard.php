@@ -851,6 +851,10 @@ EOF;
 	if ($loggedin) {
 		if ($isadmin) {
 			if (isset($_GET['rebuildall'])) {
+				if ($account['role'] != TINYIB_SUPER_ADMINISTRATOR) {
+					fancyDie(__('Access denied'));
+				}
+
 				$allthreads = allThreads();
 				foreach ($allthreads as $thread) {
 					rebuildThread($thread['id']);
@@ -858,11 +862,16 @@ EOF;
 				rebuildIndexes();
 				$text .= manageInfo(__('Rebuilt board.'));
 			} else if (isset($_GET['modlog'])) {
+				if ($account['role'] != TINYIB_SUPER_ADMINISTRATOR) {
+					fancyDie(__('Access denied'));
+				}
+
 				$text .= manageModerationLog($_GET['modlog']);
 			} else if (isset($_GET['reports'])) {
 				if (!TINYIB_REPORT) {
 					fancyDie(__('Reporting is disabled.'));
 				}
+				
 				$text .= manageReportsPage($_GET['reports']);
 			} elseif (isset($_GET['accounts'])) {
 				if ($account['role'] != TINYIB_SUPER_ADMINISTRATOR) {
